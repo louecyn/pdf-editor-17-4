@@ -207,6 +207,9 @@ final class PdfEditorRenderer
         }
 
         $fontFamily = $this->resolveFontFamily((string)($element['fontFamily'] ?? 'Helvetica'));
+        if ($fontFamily['isCore'] && $this->requiresUnicodeFont($text)) {
+            $fontFamily = $this->resolveFontFamily('DejaVuSans');
+        }
         $text = $this->prepareTextForFont($text, $fontFamily);
         $fontSize = $this->sanitizeFontSize($element['fontSize'] ?? 14);
         $color = $this->parseColor((string)($element['color'] ?? '#111827'));
@@ -296,6 +299,25 @@ final class PdfEditorRenderer
             'dejavusans', 'dejavu sans' => ['family' => 'DejaVuSans', 'file' => 'DejaVuSans.ttf', 'isCore' => false],
             default => ['family' => 'Helvetica', 'file' => null, 'isCore' => true],
         };
+    }
+
+    private function requiresUnicodeFont(string $text): bool
+    {
+        if ($text === '') {
+            return false;
+        }
+
+        $converted = @iconv('UTF-8', 'Windows-1252//TRANSLIT', $text);
+        if ($converted === false) {
+            return true;
+        }
+
+        $roundTrip = @iconv('Windows-1252', 'UTF-8', $converted);
+        if ($roundTrip === false) {
+            return true;
+        }
+
+        return $roundTrip !== $text;
     }
 
     private function applyFont(Fpdi $pdf, array $font, float $fontSize): void
