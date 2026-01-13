@@ -206,6 +206,7 @@ final class PdfEditorRenderer
             return;
         }
 
+        $text = $this->normalizeTextEncoding($text);
         $fontFamily = $this->resolveFontFamily((string)($element['fontFamily'] ?? 'Helvetica'));
         if ($fontFamily['isCore'] && $this->requiresUnicodeFont($text)) {
             $fontFamily = $this->resolveFontFamily('DejaVuSans');
@@ -318,6 +319,25 @@ final class PdfEditorRenderer
         }
 
         return $roundTrip !== $text;
+    }
+
+    private function normalizeTextEncoding(string $text): string
+    {
+        if ($text === '') {
+            return $text;
+        }
+
+        $candidate = @iconv('Windows-1252', 'UTF-8//IGNORE', $text);
+        if ($candidate === false || $candidate === $text) {
+            return $text;
+        }
+
+        $roundTrip = @iconv('UTF-8', 'Windows-1252//IGNORE', $candidate);
+        if ($roundTrip === $text) {
+            return $candidate;
+        }
+
+        return $text;
     }
 
     private function applyFont(Fpdi $pdf, array $font, float $fontSize): void
