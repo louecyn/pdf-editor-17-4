@@ -1,0 +1,539 @@
+# Cartographie complète des réponses générée le 2025-11-14T15:16:58-05:00
+# Champ | Valeur | Libellé | Définie | Observée | Section | Origine
+type_demande |  | -- Sélectionnez -- | oui | 0 | Type de demande | index.php:getFieldDefinitions:type_demande
+type_demande | Refinancement sans changement | Refinancement/Renouvellement hypothécaire sans changements | oui | 3 | Type de demande | index.php:getFieldDefinitions:type_demande
+type_demande | Refinancement avec ajout | Refinancement/Renouvellement avec ajout d’un montant | oui | 5 | Type de demande | index.php:getFieldDefinitions:type_demande
+type_demande | Nouvel achat propriétaire occupant | Nouvel achat propriétaire occupant | oui | 8 | Type de demande | index.php:getFieldDefinitions:type_demande
+type_demande | Nouvel achat duplex occupant/locatif | Nouvel achat duplex et + propriétaire occupant et locatif | oui | 2 | Type de demande | index.php:getFieldDefinitions:type_demande
+type_demande | Nouvel achat 100% locatif | Nouvel achat 100% locatif | oui | 1 | Type de demande | index.php:getFieldDefinitions:type_demande
+type_demande | Nouvel achat duplex locatif | Nouvel achat duplex locatif | non | 1 | Type de demande | index.php:getFieldDefinitions:type_demande
+bilan_process |  | -- Sélectionnez -- | oui | 0 | Bilan | index.php:getFieldDefinitions:bilan_process
+bilan_process | renseignement_attente_taux | J'ai déjà commencé à me renseigner mais je n'ai pas reçu un super deal de taux et j'attends de trouver le taux le plus bas avant de m'embarquer | oui | 2 | Bilan | index.php:getFieldDefinitions:bilan_process
+bilan_process | taux_fonctionnel | Je veux juste un taux qui fonctionne pour mon projet et je suis prêt(e) à avancer si on m'offre un bon service et qu'on trouve une solution avantageuse pour moi | oui | 2 | Bilan | index.php:getFieldDefinitions:bilan_process
+bilan_process | accompagnement_personnalise | Je veux qu'on m'aide à trouver quelque chose de bien, avec un accompagnement personnalisé | oui | 7 | Bilan | index.php:getFieldDefinitions:bilan_process
+bilan_process | prequalification_existante | J’ai déjà une préqualification ou offre verbale, je souhaite la fournir | oui | 4 | Bilan | index.php:getFieldDefinitions:bilan_process
+bilan_process | offre_meilleure | Je n'ai pas encore regardé, mais si je vois une offre, je veux qu'on m'en propose mieux | oui | 4 | Bilan | index.php:getFieldDefinitions:bilan_process
+bilan_process | reference_lorianne | J'ai été référée et j'ai entendu du bien de Lorianne courtier hypothécaire | oui | 1 | Bilan | index.php:getFieldDefinitions:bilan_process
+bilan_importance |  | -- Sélectionnez -- | oui | 0 | Bilan | index.php:getFieldDefinitions:bilan_importance
+bilan_importance | service_accompagnement | Le service, l’accompagnement et une solution adaptée | oui | 14 | Bilan | index.php:getFieldDefinitions:bilan_importance
+bilan_importance | taux_bas | Le taux le plus bas, peu importe le reste | oui | 6 | Bilan | index.php:getFieldDefinitions:bilan_importance
+bilan_offre |  | -- Sélectionnez -- | oui | 0 | Bilan | index.php:getFieldDefinitions:bilan_offre
+bilan_offre | oui_meilleure_option | Oui, si c’est la meilleure option pour moi | oui | 6 | Bilan | index.php:getFieldDefinitions:bilan_offre
+bilan_offre | voir_plusieurs_offres | Je préfère voir plusieurs offres avant de me décider | oui | 8 | Bilan | index.php:getFieldDefinitions:bilan_offre
+bilan_offre | battre_offre_existante | Seulement si vous pouvez battre l'offre que j'ai déjà reçue | oui | 5 | Bilan | index.php:getFieldDefinitions:bilan_offre
+bilan_offre | service_accompagnement_bien | Oui, avec un bon service et accompagnement | oui | 1 | Bilan | index.php:getFieldDefinitions:bilan_offre
+bilan_offre | peutetre_et_autres | Peut-être, mais je vais aussi voir ailleurs | oui | 0 | Bilan | index.php:getFieldDefinitions:bilan_offre
+bilan_offre_preexistante |  | -- Sélectionnez -- | oui | 0 | Bilan | index.php:getFieldDefinitions:bilan_offre_preexistante
+bilan_offre_preexistante | oui_battre_taux | Oui, mais je veux voir si vous pouvez battre leur taux | oui | 6 | Bilan | index.php:getFieldDefinitions:bilan_offre_preexistante
+bilan_offre_preexistante | oui_service | Oui, j'ai déjà commencé avec un autre courtier mais je souhaite un meilleur service | oui | 10 | Bilan | index.php:getFieldDefinitions:bilan_offre_preexistante
+bilan_offre_preexistante | non | Non, je veux explorer mes options avec vous | oui | 4 | Bilan | index.php:getFieldDefinitions:bilan_offre_preexistante
+bilan_documents_rassembles |  | -- Sélectionnez -- | oui | 0 | Bilan | index.php:getFieldDefinitions:bilan_documents_rassembles
+bilan_documents_rassembles | oui_partiellement | Oui, j’ai possiblement déjà tout ou une partie prête | oui | 10 | Bilan | index.php:getFieldDefinitions:bilan_documents_rassembles
+bilan_documents_rassembles | pas_encore | Pas encore, mais je vais le faire dès que possible | oui | 8 | Bilan | index.php:getFieldDefinitions:bilan_documents_rassembles
+bilan_documents_rassembles | doit_regler | Je dois régler cela rapidement, j'ai un délai à respecter | oui | 2 | Bilan | index.php:getFieldDefinitions:bilan_documents_rassembles
+bilan_date_limite |  | -- Sélectionnez -- | oui | 0 | Bilan | index.php:getFieldDefinitions:bilan_date_limite
+bilan_date_limite | date_precise | Date précise (ex: dans 3-4 mois) | oui | 2 | Bilan | index.php:getFieldDefinitions:bilan_date_limite
+bilan_date_limite | aucun | Non, je regarde juste mes options | oui | 6 | Bilan | index.php:getFieldDefinitions:bilan_date_limite
+bilan_date_limite | qualifier | Je veux juste me faire qualifier | oui | 7 | Bilan | index.php:getFieldDefinitions:bilan_date_limite
+bilan_date_limite | plus_6mois | Pas de stress, c'est pour dans plus de 6 mois | oui | 3 | Bilan | index.php:getFieldDefinitions:bilan_date_limite
+bilan_date_limite | pas_presse | Je ne suis pas pressé(e), je cherche le taux le plus bas | oui | 2 | Bilan | index.php:getFieldDefinitions:bilan_date_limite
+date_limite_precise |  |  | non | 18 | Bilan | index.php:getFieldDefinitions:date_limite_precise
+date_limite_precise | 2025-09-30 | 2025-09-30 | non | 1 | Bilan | index.php:getFieldDefinitions:date_limite_precise
+date_limite_precise | 2025-09-28 | 2025-09-28 | non | 1 | Bilan | index.php:getFieldDefinitions:date_limite_precise
+titre_politesse |  | -- Sélectionnez -- | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:titre_politesse
+titre_politesse | Mr. | Mr. | oui | 10 | Informations personnelles | index.php:getFieldDefinitions:titre_politesse
+titre_politesse | Mme. | Mme. | oui | 10 | Informations personnelles | index.php:getFieldDefinitions:titre_politesse
+prenom | Lila | Lila | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Mauu | Mauu | non | 2 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Janni | Janni | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Testtt | Testtt | non | 2 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Minila | Minila | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Grenouille | Grenouille | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Banane | Banane | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Mila | Mila | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Refina | Refina | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Dixo | Dixo | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Boule | Boule | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Test De | Test De | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Monsieur | Monsieur | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Test Valère | Test Valère | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Jacques | Jacques | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Ice-Cream | Ice-Cream | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Mademoiselle | Mademoiselle | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+prenom | Richy | Richy | non | 1 | Informations personnelles | index.php:getFieldDefinitions:prenom
+nom | Testa | Testa | non | 3 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Testii | Testii | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Pouliche | Pouliche | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Testaaaao | Testaaaao | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | MR Raindow | MR Raindow | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Test | Test | non | 2 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Testi | Testi | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Testiia | Testiia | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Testaaaa | Testaaaa | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Ncement | Ncement | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | De-poils | De-poils | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Midi Vinght-Deux | Midi Vinght-Deux | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Jacques | Jacques | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Demande | Demande | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Refinance | Refinance | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Micher-Lange | Micher-Lange | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+nom | Refin | Refin | non | 1 | Informations personnelles | index.php:getFieldDefinitions:nom
+dob | 1980-10-10 | 1980-10-10 | non | 6 | Informations personnelles | index.php:getFieldDefinitions:dob
+dob | 1990-01-01 | 1990-01-01 | non | 5 | Informations personnelles | index.php:getFieldDefinitions:dob
+dob | 1990-10-10 | 1990-10-10 | non | 2 | Informations personnelles | index.php:getFieldDefinitions:dob
+dob | 1970-01-01 | 1970-01-01 | non | 1 | Informations personnelles | index.php:getFieldDefinitions:dob
+dob | 2000-01-01 | 2000-01-01 | non | 1 | Informations personnelles | index.php:getFieldDefinitions:dob
+dob | 1963-09-09 | 1963-09-09 | non | 1 | Informations personnelles | index.php:getFieldDefinitions:dob
+dob | 0950-10-10 | 0950-10-10 | non | 1 | Informations personnelles | index.php:getFieldDefinitions:dob
+dob | 1966-01-10 | 1966-01-10 | non | 1 | Informations personnelles | index.php:getFieldDefinitions:dob
+dob | 1975-10-10 | 1975-10-10 | non | 1 | Informations personnelles | index.php:getFieldDefinitions:dob
+dob | 1995-01-01 | 1995-01-01 | non | 1 | Informations personnelles | index.php:getFieldDefinitions:dob
+etat_civil |  | -- Sélectionnez -- | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:etat_civil
+etat_civil | Célibataire | Célibataire | oui | 3 | Informations personnelles | index.php:getFieldDefinitions:etat_civil
+etat_civil | Marié | Marié | oui | 6 | Informations personnelles | index.php:getFieldDefinitions:etat_civil
+etat_civil | Divorcé | Divorcé | oui | 9 | Informations personnelles | index.php:getFieldDefinitions:etat_civil
+etat_civil | Séparé | Séparé | oui | 1 | Informations personnelles | index.php:getFieldDefinitions:etat_civil
+etat_civil | Conjoint de fait | Conjoint de fait | oui | 1 | Informations personnelles | index.php:getFieldDefinitions:etat_civil
+etat_civil | Veuf/Veuve | Veuf/Veuve | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:etat_civil
+regime_matrimonial |  | -- Sélectionnez -- | oui | 14 | Informations personnelles | index.php:getFieldDefinitions:regime_matrimonial
+regime_matrimonial | Société d’acquêts | Société d’acquêts | oui | 4 | Informations personnelles | index.php:getFieldDefinitions:regime_matrimonial
+regime_matrimonial | Séparation de biens | Séparation de biens | oui | 2 | Informations personnelles | index.php:getFieldDefinitions:regime_matrimonial
+regime_matrimonial | Communauté de biens | Communauté de biens | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:regime_matrimonial
+veuf_option |  | -- Sélectionnez -- | oui | 16 | Informations personnelles | index.php:getFieldDefinitions:veuf_option
+veuf_option | Veuf/Veuve récent(e) | Veuf/Veuve récent(e) | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:veuf_option
+veuf_option | Remarié(e) | Remarié(e) | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:veuf_option
+veuf_option | Autre | Autre | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:veuf_option
+veuf_option | Je ne reçois pas de montant | Je ne reçois pas de montant | non | 4 | Informations personnelles | index.php:getFieldDefinitions:veuf_option
+telephone | 2424421289 | 2424421289 | non | 10 | Informations personnelles | index.php:getFieldDefinitions:telephone
+telephone | 5144098983 | 5144098983 | non | 6 | Informations personnelles | index.php:getFieldDefinitions:telephone
+telephone | 5140000000 | 5140000000 | non | 3 | Informations personnelles | index.php:getFieldDefinitions:telephone
+telephone | 5260000000 | 5260000000 | non | 1 | Informations personnelles | index.php:getFieldDefinitions:telephone
+email | louecyn@outlook.com | louecyn@outlook.com | non | 9 | Informations personnelles | index.php:getFieldDefinitions:email
+email | lorianne.boulanger@outlook.com | lorianne.boulanger@outlook.com | non | 11 | Informations personnelles | index.php:getFieldDefinitions:email
+resident |  | -- Sélectionnez -- | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:resident
+resident | Citoyen | Citoyen | oui | 20 | Informations personnelles | index.php:getFieldDefinitions:resident
+resident | Résident | Résident | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:resident
+resident | Immigrant reçu | Immigrant reçu | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:resident
+resident | Étranger | Étranger | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:resident
+resident | Visa Étudiant | Visa Étudiant | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:resident
+resident | Visa de travail | Visa de travail | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:resident
+resident | Non résident | Non résident | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:resident
+nouvel_arrivant |  | -- Sélectionnez -- | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:nouvel_arrivant
+nouvel_arrivant | Oui | Oui | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:nouvel_arrivant
+nouvel_arrivant | Non | Non | oui | 20 | Informations personnelles | index.php:getFieldDefinitions:nouvel_arrivant
+nouvel_acheteur |  | -- Sélectionnez -- | oui | 0 | Informations personnelles | index.php:getFieldDefinitions:nouvel_acheteur
+nouvel_acheteur | Oui | Oui | oui | 9 | Informations personnelles | index.php:getFieldDefinitions:nouvel_acheteur
+nouvel_acheteur | Non | Non | oui | 11 | Informations personnelles | index.php:getFieldDefinitions:nouvel_acheteur
+piece1_type |  | -- Sélectionnez -- | oui | 0 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_type
+piece1_type | Permis de conduire | Permis de conduire | oui | 19 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_type
+piece1_type | Carte d’assurance maladie | Carte d’assurance maladie | oui | 1 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_type
+piece1_type | Passeport | Passeport | oui | 0 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_type
+piece1_type | Autres | Autres | oui | 0 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_type
+piece1_autre_type |  |  | non | 20 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_autre_type
+piece1_pays | Canada | Canada | non | 20 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_pays
+piece1_numero | HDHF7883 | HDHF7883 | non | 9 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_numero
+piece1_numero |  V2002-150186-01 |  V2002-150186-01 | non | 9 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_numero
+piece1_numero | 000 | 000 | non | 1 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_numero
+piece1_numero | Y47474-3939-22 | Y47474-3939-22 | non | 1 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_numero
+piece1_expiration | 2030-10-10 | 2030-10-10 | non | 10 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_expiration
+piece1_expiration | 2030-01-01 | 2030-01-01 | non | 6 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_expiration
+piece1_expiration | 2028-01-01 | 2028-01-01 | non | 3 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_expiration
+piece1_expiration | 2026-01-01 | 2026-01-01 | non | 1 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_expiration
+piece2_type |  | -- Sélectionnez -- | oui | 0 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_type
+piece2_type | Permis de conduire | Permis de conduire | oui | 1 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_type
+piece2_type | Carte d’assurance maladie | Carte d’assurance maladie | oui | 19 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_type
+piece2_type | Passeport | Passeport | oui | 0 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_type
+piece2_type | Autres | Autres | oui | 0 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_type
+piece2_autre_type |  |  | non | 20 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_autre_type
+piece2_pays | Canada | Canada | non | 20 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_pays
+piece2_numero | GILV77041312 | GILV77041312 | non | 7 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_numero
+piece2_numero | FFFHH2E388 | FFFHH2E388 | non | 8 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_numero
+piece2_numero |  VASC86011512 |  VASC86011512 | non | 3 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_numero
+piece2_numero | 0000 | 0000 | non | 1 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_numero
+piece2_numero | FHDD273636 | FHDD273636 | non | 1 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_numero
+piece2_expiration | 2030-10-10 | 2030-10-10 | non | 10 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_expiration
+piece2_expiration | 2030-01-01 | 2030-01-01 | non | 6 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_expiration
+piece2_expiration | 2028-01-01 | 2028-01-01 | non | 3 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_expiration
+piece2_expiration | 2026-01-01 | 2026-01-01 | non | 1 | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_expiration
+adresses | (aucune) |  | non | 0 | Historique d’adresses | index.php:getFieldDefinitions:adresses
+adresses.type |  | -- Sélectionnez -- | oui | 0 | Historique d’adresses | index.php:getFieldDefinitions:adresses.type
+adresses.type | Actuel | Actuel | oui | 17 | Historique d’adresses | index.php:getFieldDefinitions:adresses.type
+adresses.type | Précédent | Précédent | oui | 2 | Historique d’adresses | index.php:getFieldDefinitions:adresses.type
+adresses.numero_rue | 590 | 590 | non | 5 | Historique d’adresses | index.php:getFieldDefinitions:adresses.numero_rue
+adresses.numero_rue | 774 | 774 | non | 2 | Historique d’adresses | index.php:getFieldDefinitions:adresses.numero_rue
+adresses.numero_rue | 11 rue Jambon, Montreal, QC, H1H2H2 | 11 rue Jambon, Montreal, QC, H1H2H2 | non | 2 | Historique d’adresses | index.php:getFieldDefinitions:adresses.numero_rue
+adresses.numero_rue | Unit 913 Harbour House Towers Condominium Freeport | Unit 913 Harbour House Towers Condominium Freeport | non | 6 | Historique d’adresses | index.php:getFieldDefinitions:adresses.numero_rue
+adresses.numero_rue | 7745 | 7745 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.numero_rue
+adresses.numero_rue | 11 | 11 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.numero_rue
+adresses.numero_rue | 1074 notre-dame ouest | 1074 notre-dame ouest | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.numero_rue
+adresses.numero_rue | 77 | 77 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.numero_rue
+adresses.nom_rue | rue vaya | rue vaya | non | 2 | Historique d’adresses | index.php:getFieldDefinitions:adresses.nom_rue
+adresses.nom_rue | 590 | 590 | non | 3 | Historique d’adresses | index.php:getFieldDefinitions:adresses.nom_rue
+adresses.nom_rue | rue bleuet | rue bleuet | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.nom_rue
+adresses.nom_rue | 11 rue Jambon, Montreal, QC, H1H2H2 | 11 rue Jambon, Montreal, QC, H1H2H2 | non | 2 | Historique d’adresses | index.php:getFieldDefinitions:adresses.nom_rue
+adresses.nom_rue | Unit 913 Harbour House Towers Condominium Freeport | Unit 913 Harbour House Towers Condominium Freeport | non | 5 | Historique d’adresses | index.php:getFieldDefinitions:adresses.nom_rue
+adresses.nom_rue | Rue test | Rue test | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.nom_rue
+adresses.nom_rue | alalala | alalala | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.nom_rue
+adresses.nom_rue | Lafleur | Lafleur | non | 2 | Historique d’adresses | index.php:getFieldDefinitions:adresses.nom_rue
+adresses.nom_rue | rue lévis | rue lévis | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.nom_rue
+adresses.nom_rue | 800 | 800 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.nom_rue
+adresses.appartement |  |  | non | 19 | Historique d’adresses | index.php:getFieldDefinitions:adresses.appartement
+adresses.ville | victoriaville | victoriaville | non | 8 | Historique d’adresses | index.php:getFieldDefinitions:adresses.ville
+adresses.ville | Montreal | Montreal | non | 4 | Historique d’adresses | index.php:getFieldDefinitions:adresses.ville
+adresses.ville | Freeport, Grand Bahama | Freeport, Grand Bahama | non | 6 | Historique d’adresses | index.php:getFieldDefinitions:adresses.ville
+adresses.ville | abc | abc | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.ville
+adresses.province | qc | qc | non | 10 | Historique d’adresses | index.php:getFieldDefinitions:adresses.province
+adresses.province | Québec | Québec | non | 4 | Historique d’adresses | index.php:getFieldDefinitions:adresses.province
+adresses.province | ww | ww | non | 4 | Historique d’adresses | index.php:getFieldDefinitions:adresses.province
+adresses.province | grand bahama | grand bahama | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.province
+adresses.code_postal | g6p1l4 | g6p1l4 | non | 8 | Historique d’adresses | index.php:getFieldDefinitions:adresses.code_postal
+adresses.code_postal | H1E2A2 | H1E2A2 | non | 2 | Historique d’adresses | index.php:getFieldDefinitions:adresses.code_postal
+adresses.code_postal | neheh | neheh | non | 4 | Historique d’adresses | index.php:getFieldDefinitions:adresses.code_postal
+adresses.code_postal | H1E9D9 | H1E9D9 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.code_postal
+adresses.code_postal | h1h1h1 | h1h1h1 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.code_postal
+adresses.code_postal | h2hh2h | h2hh2h | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.code_postal
+adresses.code_postal | H1E4J4 | H1E4J4 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.code_postal
+adresses.code_postal | Bahamas | Bahamas | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.code_postal
+adresses.date_debut | 2015-10-10 | 2015-10-10 | non | 2 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_debut
+adresses.date_debut | 2010-01-01 | 2010-01-01 | non | 3 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_debut
+adresses.date_debut | 2020-01-01 | 2020-01-01 | non | 2 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_debut
+adresses.date_debut | 2015-01-01 | 2015-01-01 | non | 2 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_debut
+adresses.date_debut | 2010-10-10 | 2010-10-10 | non | 4 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_debut
+adresses.date_debut | 2001-01-01 | 2001-01-01 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_debut
+adresses.date_debut | 2000-01-01 | 2000-01-01 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_debut
+adresses.date_debut | 2021-01-01 | 2021-01-01 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_debut
+adresses.date_debut | 2022-01-01 | 2022-01-01 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_debut
+adresses.date_debut | 2023-10-10 | 2023-10-10 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_debut
+adresses.date_debut | 2005-01-01 | 2005-01-01 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_debut
+adresses.date_fin |  |  | non | 17 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_fin
+adresses.date_fin | 2022-01-01 | 2022-01-01 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_fin
+adresses.date_fin | 2023-10-10 | 2023-10-10 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_fin
+adresses.statut |  | -- Sélectionnez -- | oui | 0 | Historique d’adresses | index.php:getFieldDefinitions:adresses.statut
+adresses.statut | Propriétaire | Propriétaire | oui | 5 | Historique d’adresses | index.php:getFieldDefinitions:adresses.statut
+adresses.statut | Loyer | Loyer | oui | 14 | Historique d’adresses | index.php:getFieldDefinitions:adresses.statut
+adresses.statut | Habite avec mes parents | Habite avec mes parents | oui | 0 | Historique d’adresses | index.php:getFieldDefinitions:adresses.statut
+adresses.statut | Co-Habite | Co-Habite | oui | 0 | Historique d’adresses | index.php:getFieldDefinitions:adresses.statut
+adresses.cout_loyer | 1800 | 1800 | non | 4 | Historique d’adresses | index.php:getFieldDefinitions:adresses.cout_loyer
+adresses.cout_loyer | 1700 | 1700 | non | 2 | Historique d’adresses | index.php:getFieldDefinitions:adresses.cout_loyer
+adresses.cout_loyer | 1200 | 1200 | non | 3 | Historique d’adresses | index.php:getFieldDefinitions:adresses.cout_loyer
+adresses.cout_loyer |  |  | non | 5 | Historique d’adresses | index.php:getFieldDefinitions:adresses.cout_loyer
+adresses.cout_loyer | 800 | 800 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.cout_loyer
+adresses.cout_loyer | 833 | 833 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.cout_loyer
+adresses.cout_loyer | 733 | 733 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.cout_loyer
+adresses.cout_loyer | 590 | 590 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.cout_loyer
+adresses.cout_loyer | 838 | 838 | non | 1 | Historique d’adresses | index.php:getFieldDefinitions:adresses.cout_loyer
+adresses.lien_proprio |  |  | non | 19 | Historique d’adresses | index.php:getFieldDefinitions:adresses.lien_proprio
+emplois | (aucune) |  | non | 0 | Emploi(s) | index.php:getFieldDefinitions:emplois
+emplois.nom_employeur | emploi test Rue De l'aqueduc | emploi test Rue De l'aqueduc | non | 13 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_employeur
+emplois.nom_employeur | Emploi 2 | Emploi 2 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_employeur
+emplois.nom_employeur | job boss | job boss | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_employeur
+emplois.nom_employeur | les aliments midlon foods inc | les aliments midlon foods inc | non | 3 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_employeur
+emplois.nom_employeur | boss | boss | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_employeur
+emplois.statut |  | -- Sélectionnez -- | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:emplois.statut
+emplois.statut | Actuel | Actuel | oui | 18 | Emploi(s) | index.php:getFieldDefinitions:emplois.statut
+emplois.statut | Précédent | Précédent | oui | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.statut
+emplois.numero_rue | 6100 | 6100 | non | 12 | Emploi(s) | index.php:getFieldDefinitions:emplois.numero_rue
+emplois.numero_rue | 22 | 22 | non | 2 | Emploi(s) | index.php:getFieldDefinitions:emplois.numero_rue
+emplois.numero_rue | 12 | 12 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.numero_rue
+emplois.numero_rue | 3 | 3 | non | 3 | Emploi(s) | index.php:getFieldDefinitions:emplois.numero_rue
+emplois.numero_rue | 700 | 700 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.numero_rue
+emplois.nom_rue | emploi test Rue De l'aqueduc | emploi test Rue De l'aqueduc | non | 7 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_rue
+emplois.nom_rue | rue blabla emploi test Rue De l'aqueduc | rue blabla emploi test Rue De l'aqueduc | non | 2 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_rue
+emplois.nom_rue | rue banane | rue banane | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_rue
+emplois.nom_rue | Rue janiuel | Rue janiuel | non | 3 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_rue
+emplois.nom_rue | test | test | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_rue
+emplois.nom_rue | chemin de la côte de liesse | chemin de la côte de liesse | non | 3 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_rue
+emplois.nom_rue | Rue De l'aqueduc | Rue De l'aqueduc | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_rue
+emplois.nom_rue | rue lafleur | rue lafleur | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_rue
+emplois.bureau |  |  | non | 15 | Emploi(s) | index.php:getFieldDefinitions:emplois.bureau
+emplois.bureau | 1 | 1 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.bureau
+emplois.bureau | 225 | 225 | non | 3 | Emploi(s) | index.php:getFieldDefinitions:emplois.bureau
+emplois.ville | victoriaville | victoriaville | non | 11 | Emploi(s) | index.php:getFieldDefinitions:emplois.ville
+emplois.ville | Freeport, Grand Bahama | Freeport, Grand Bahama | non | 3 | Emploi(s) | index.php:getFieldDefinitions:emplois.ville
+emplois.ville | montreal | montreal | non | 2 | Emploi(s) | index.php:getFieldDefinitions:emplois.ville
+emplois.ville | ville saint-laurent | ville saint-laurent | non | 3 | Emploi(s) | index.php:getFieldDefinitions:emplois.ville
+emplois.province | qc | qc | non | 14 | Emploi(s) | index.php:getFieldDefinitions:emplois.province
+emplois.province | QC | QC | non | 4 | Emploi(s) | index.php:getFieldDefinitions:emplois.province
+emplois.province | test jobb | test jobb | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.province
+emplois.code_postal | g6p1l4 | g6p1l4 | non | 11 | Emploi(s) | index.php:getFieldDefinitions:emplois.code_postal
+emplois.code_postal | h1h82d | h1h82d | non | 3 | Emploi(s) | index.php:getFieldDefinitions:emplois.code_postal
+emplois.code_postal | h2h2k3 | h2h2k3 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.code_postal
+emplois.code_postal | h4t1e3 | h4t1e3 | non | 3 | Emploi(s) | index.php:getFieldDefinitions:emplois.code_postal
+emplois.code_postal | H1J3K4 | H1J3K4 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.code_postal
+emplois.titre_poste | gérant | gérant | non | 7 | Emploi(s) | index.php:getFieldDefinitions:emplois.titre_poste
+emplois.titre_poste | Assistange Gérante de Machinerie Lourde domaine de l'irrigation et agriculture | Assistange Gérante de Machinerie Lourde domaine de l'irrigation et agriculture | non | 2 | Emploi(s) | index.php:getFieldDefinitions:emplois.titre_poste
+emplois.titre_poste | directrice des ventes | directrice des ventes | non | 10 | Emploi(s) | index.php:getFieldDefinitions:emplois.titre_poste
+emplois.position |  | -- Sélectionnez -- | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:emplois.position
+emplois.position | Autre | Autre | oui | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.position
+emplois.position | Gestionnaire/Direction | Gestionnaire/Direction | oui | 13 | Emploi(s) | index.php:getFieldDefinitions:emplois.position
+emplois.position | Main d’œuvre qualifiée | Main d’œuvre qualifiée | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:emplois.position
+emplois.position | Personnel de bureau | Personnel de bureau | oui | 2 | Emploi(s) | index.php:getFieldDefinitions:emplois.position
+emplois.position | Professionnel | Professionnel | oui | 2 | Emploi(s) | index.php:getFieldDefinitions:emplois.position
+emplois.position | Retraité | Retraité | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:emplois.position
+emplois.position | Travailleur Autonome | Travailleur Autonome | oui | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.position
+emplois.date_embauche | 2020-01-02 | 2020-01-02 | non | 2 | Emploi(s) | index.php:getFieldDefinitions:emplois.date_embauche
+emplois.date_embauche | 2005-01-01 | 2005-01-01 | non | 2 | Emploi(s) | index.php:getFieldDefinitions:emplois.date_embauche
+emplois.date_embauche | 2024-01-01 | 2024-01-01 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.date_embauche
+emplois.date_embauche | 2019-01-01 | 2019-01-01 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.date_embauche
+emplois.date_embauche | 2015-01-01 | 2015-01-01 | non | 6 | Emploi(s) | index.php:getFieldDefinitions:emplois.date_embauche
+emplois.date_embauche | 2020-10-10 | 2020-10-10 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.date_embauche
+emplois.date_embauche | 1998-09-09 | 1998-09-09 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.date_embauche
+emplois.date_embauche | 2012-01-09 | 2012-01-09 | non | 3 | Emploi(s) | index.php:getFieldDefinitions:emplois.date_embauche
+emplois.date_embauche | 2008-01-01 | 2008-01-01 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.date_embauche
+emplois.date_embauche | 2007-01-01 | 2007-01-01 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.date_embauche
+emplois.job_field_experience | 15 | 15 | non | 2 | Emploi(s) | index.php:getFieldDefinitions:emplois.job_field_experience
+emplois.job_field_experience | 20 | 20 | non | 4 | Emploi(s) | index.php:getFieldDefinitions:emplois.job_field_experience
+emplois.job_field_experience | 5 | 5 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.job_field_experience
+emplois.job_field_experience | 6 | 6 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.job_field_experience
+emplois.job_field_experience | 17 | 17 | non | 3 | Emploi(s) | index.php:getFieldDefinitions:emplois.job_field_experience
+emplois.job_field_experience | 10 | 10 | non | 2 | Emploi(s) | index.php:getFieldDefinitions:emplois.job_field_experience
+emplois.job_field_experience | 26 | 26 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.job_field_experience
+emplois.job_field_experience | 40 | 40 | non | 3 | Emploi(s) | index.php:getFieldDefinitions:emplois.job_field_experience
+emplois.job_field_experience | 27 | 27 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.job_field_experience
+emplois.job_field_experience | 16 | 16 | non | 1 | Emploi(s) | index.php:getFieldDefinitions:emplois.job_field_experience
+arret_travail | Oui | Valeur cochée | oui | 2 | Emploi(s) | index.php:getFieldDefinitions:arret_travail
+arret_travail | Non | Valeur décochée | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:arret_travail
+arret_travail_cause |  | -- Sélectionnez -- | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_cause
+arret_travail_cause | Maladie | Maladie | oui | 2 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_cause
+arret_travail_cause | Maternité/paternité | Maternité/paternité | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_cause
+arret_travail_duree |  | -- Sélectionnez -- | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_duree
+arret_travail_duree | Courte durée | Courte durée | oui | 2 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_duree
+arret_travail_duree | Longue durée | Longue durée | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_duree
+arret_travail_type_revenu |  | -- Sélectionnez -- | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_type_revenu
+arret_travail_type_revenu | Imposable | Imposable | oui | 1 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_type_revenu
+arret_travail_type_revenu | Non-imposable | Non-imposable | oui | 1 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_type_revenu
+arret_travail_date_retour |  | -- Sélectionnez -- | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_date_retour
+arret_travail_date_retour | Oui | Oui | oui | 1 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_date_retour
+arret_travail_date_retour | Non | Non | oui | 1 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_date_retour
+arret_travail_date_retour | Non je suis sur l’invalidité à vie je ne retournerai plus jamais à l’emploi | Non je suis sur l’invalidité à vie je ne retournerai plus jamais à l’emploi | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:arret_travail_date_retour
+assurance_emploi |  | -- Sélectionnez -- | oui | 0 | Emploi(s) | index.php:getFieldDefinitions:assurance_emploi
+assurance_emploi | Non | Non | oui | 8 | Emploi(s) | index.php:getFieldDefinitions:assurance_emploi
+assurance_emploi | Oui | Oui | oui | 5 | Emploi(s) | index.php:getFieldDefinitions:assurance_emploi
+assurance_emploi_pourquoi |  |  | non | 8 | Emploi(s) | index.php:getFieldDefinitions:assurance_emploi_pourquoi
+assurance_emploi_pourquoi | en 2018 douleurs dos | en 2018 douleurs dos | non | 2 | Emploi(s) | index.php:getFieldDefinitions:assurance_emploi_pourquoi
+assurance_emploi_pourquoi | Maladie | Maladie | non | 3 | Emploi(s) | index.php:getFieldDefinitions:assurance_emploi_pourquoi
+revenus_checkbox | retraite | J’ai un revenu de retraite* | oui | 1 | Revenus | index.php:getFieldDefinitions:revenus_checkbox
+revenus_checkbox | employe | J’ai un revenu en tant qu’employé** | oui | 19 | Revenus | index.php:getFieldDefinitions:revenus_checkbox
+revenus_checkbox | autonome | J’ai un revenu de travailleur autonome et/ou entrepreneur*** | oui | 1 | Revenus | index.php:getFieldDefinitions:revenus_checkbox
+revenus_autonome_type |  | -- Sélectionnez -- | oui | 19 | Revenus | index.php:getFieldDefinitions:revenus_autonome_type
+revenus_autonome_type | Dividendes | Dividendes | oui | 0 | Revenus | index.php:getFieldDefinitions:revenus_autonome_type
+revenus_autonome_type | Salaire | Je me tire un salaire | oui | 1 | Revenus | index.php:getFieldDefinitions:revenus_autonome_type
+revenus_autonome_type | Salaire et dividendes | Je me tire un salaire et je me verse des dividendes | oui | 0 | Revenus | index.php:getFieldDefinitions:revenus_autonome_type
+revenus_autonome_structure |  | -- Sélectionnez -- | oui | 12 | Revenus | index.php:getFieldDefinitions:revenus_autonome_structure
+revenus_autonome_structure | Entreprise enregistrée (à mon nom seulement dans mes impôts personnelles) | Entreprise enregistrée (à mon nom seulement dans mes impôts personnelles) | oui | 0 | Revenus | index.php:getFieldDefinitions:revenus_autonome_structure
+revenus_autonome_structure | Entreprise incorporée | Entreprise incorporée | oui | 0 | Revenus | index.php:getFieldDefinitions:revenus_autonome_structure
+revenus_add | (aucune) |  | non | 0 | Revenus | index.php:getFieldDefinitions:revenus_add
+revenus_add.type |  | -- Sélectionnez -- | oui | 0 | Revenus | index.php:getFieldDefinitions:revenus_add.type
+revenus_add.type | Revenus de placements | Revenus de placements | oui | 0 | Revenus | index.php:getFieldDefinitions:revenus_add.type
+revenus_add.type | Allocations pour enfants | Allocations pour enfants | oui | 0 | Revenus | index.php:getFieldDefinitions:revenus_add.type
+revenus_add.type | Pension | Pension | oui | 0 | Revenus | index.php:getFieldDefinitions:revenus_add.type
+revenus_add.type | Pension Alimentaire | Pension Alimentaire | oui | 0 | Revenus | index.php:getFieldDefinitions:revenus_add.type
+revenus_add.type | Autres | Autres | oui | 0 | Revenus | index.php:getFieldDefinitions:revenus_add.type
+revenus_add.autres | (aucune) |  | non | 0 | Revenus | index.php:getFieldDefinitions:revenus_add.autres
+actifs_add | (aucune) |  | non | 0 | Actifs | index.php:getFieldDefinitions:actifs_add
+actifs_add.type |  | -- Sélectionnez -- | oui | 0 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | Épargnes | Épargnes | oui | 6 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | RÉER | RÉER | oui | 3 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | Don | Don | oui | 0 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | Véhicule | Véhicule | oui | 7 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | Bateau | Bateau | oui | 0 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | Actions et obligations | Actions et obligations | oui | 0 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | Biens ménagers | Biens ménagers | oui | 0 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | Assurance vie | Assurance vie | oui | 0 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | Économies en compte de banque Chèques | Économies en compte de banque Chèques | oui | 0 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | Économies en compte de banque Épargnes | Économies en compte de banque Épargnes | oui | 0 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | Placements | Placements | oui | 1 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | CELI | CELI | oui | 5 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | REEE | REEE | oui | 1 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | FEER | FEER | oui | 0 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | CRI | CRI | oui | 0 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | FRV | FRV | oui | 0 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.type | Autres | Autres | oui | 0 | Actifs | index.php:getFieldDefinitions:actifs_add.type
+actifs_add.autres |  |  | non | 23 | Actifs | index.php:getFieldDefinitions:actifs_add.autres
+actifs_add.description | toyota 2014 | toyota 2014 | non | 7 | Actifs | index.php:getFieldDefinitions:actifs_add.description
+actifs_add.description | compte celi | compte celi | non | 8 | Actifs | index.php:getFieldDefinitions:actifs_add.description
+actifs_add.description | compte réer | compte réer | non | 3 | Actifs | index.php:getFieldDefinitions:actifs_add.description
+actifs_add.description | FTQ | FTQ | non | 4 | Actifs | index.php:getFieldDefinitions:actifs_add.description
+actifs_add.description | VOIR DEMANDE PDF | VOIR DEMANDE PDF | non | 1 | Actifs | index.php:getFieldDefinitions:actifs_add.description
+actifs_add.valeur | 60000 | 60000 | non | 8 | Actifs | index.php:getFieldDefinitions:actifs_add.valeur
+actifs_add.valeur | 26803.17 | 26803.17 | non | 8 | Actifs | index.php:getFieldDefinitions:actifs_add.valeur
+actifs_add.valeur | 260226.14 | 260226.14 | non | 3 | Actifs | index.php:getFieldDefinitions:actifs_add.valeur
+actifs_add.valeur | 65461.55 | 65461.55 | non | 2 | Actifs | index.php:getFieldDefinitions:actifs_add.valeur
+actifs_add.valeur | 0 | 0 | non | 2 | Actifs | index.php:getFieldDefinitions:actifs_add.valeur
+passifs_presence |  | -- Sélectionnez -- | oui | 0 | Passifs | index.php:getFieldDefinitions:passifs_presence
+passifs_presence | Oui | Oui | oui | 14 | Passifs | index.php:getFieldDefinitions:passifs_presence
+passifs_presence | Non | Non | oui | 6 | Passifs | index.php:getFieldDefinitions:passifs_presence
+passifs_add | (aucune) |  | non | 0 | Passifs | index.php:getFieldDefinitions:passifs_add
+passifs_add.type |  | -- Sélectionnez -- | oui | 0 | Passifs | index.php:getFieldDefinitions:passifs_add.type
+passifs_add.type | Carte de crédit | Carte de crédit | oui | 20 | Passifs | index.php:getFieldDefinitions:passifs_add.type
+passifs_add.type | Prêt personnel | Prêt personnel | oui | 3 | Passifs | index.php:getFieldDefinitions:passifs_add.type
+passifs_add.type | Versement automobile/Bateau/Véhicule motorisé | Versement automobile/Bateau/Véhicule motorisé | oui | 0 | Passifs | index.php:getFieldDefinitions:passifs_add.type
+passifs_add.type | Pension alimentaire/Allocation pour enfants | Pension alimentaire/Allocation pour enfants | oui | 0 | Passifs | index.php:getFieldDefinitions:passifs_add.type
+passifs_add.type | Prêt étudiant | Prêt étudiant | oui | 0 | Passifs | index.php:getFieldDefinitions:passifs_add.type
+passifs_add.type | Saisie de salaire | Saisie de salaire | oui | 0 | Passifs | index.php:getFieldDefinitions:passifs_add.type
+passifs_add.type | Marge de crédit personnelle | Marge de crédit personnelle | oui | 0 | Passifs | index.php:getFieldDefinitions:passifs_add.type
+passifs_add.type | Impôts | Impôts | oui | 0 | Passifs | index.php:getFieldDefinitions:passifs_add.type
+passifs_add.type | Marge de crédit hypothécaire | Marge de crédit hypothécaire | oui | 0 | Passifs | index.php:getFieldDefinitions:passifs_add.type
+passifs_add.montant_pret |  |  | non | 20 | Passifs | index.php:getFieldDefinitions:passifs_add.montant_pret
+passifs_add.montant_pret | 35000 | 35000 | non | 2 | Passifs | index.php:getFieldDefinitions:passifs_add.montant_pret
+passifs_add.montant_pret | 10000 | 10000 | non | 1 | Passifs | index.php:getFieldDefinitions:passifs_add.montant_pret
+passifs_add.montant_versement |  |  | non | 20 | Passifs | index.php:getFieldDefinitions:passifs_add.montant_versement
+passifs_add.montant_versement | 714.99 | 714.99 | non | 2 | Passifs | index.php:getFieldDefinitions:passifs_add.montant_versement
+passifs_add.montant_versement | 600 | 600 | non | 1 | Passifs | index.php:getFieldDefinitions:passifs_add.montant_versement
+passifs_add.type_versement |  | -- Sélectionnez -- | oui | 20 | Passifs | index.php:getFieldDefinitions:passifs_add.type_versement
+passifs_add.type_versement | Mensuel | Mensuel | oui | 3 | Passifs | index.php:getFieldDefinitions:passifs_add.type_versement
+passifs_add.type_versement | Aux 2 semaines | Aux 2 semaines | oui | 0 | Passifs | index.php:getFieldDefinitions:passifs_add.type_versement
+passifs_add.type_versement | 2 fois par mois | 2 fois par mois | oui | 0 | Passifs | index.php:getFieldDefinitions:passifs_add.type_versement
+passifs_add.type_versement | Hebdomadaire par semaine | Hebdomadaire par semaine | oui | 0 | Passifs | index.php:getFieldDefinitions:passifs_add.type_versement
+passifs_add.limite | 7000 | 7000 | non | 9 | Passifs | index.php:getFieldDefinitions:passifs_add.limite
+passifs_add.limite | 5000 | 5000 | non | 11 | Passifs | index.php:getFieldDefinitions:passifs_add.limite
+passifs_add.limite |  |  | non | 3 | Passifs | index.php:getFieldDefinitions:passifs_add.limite
+passifs_add.solde | 135.13 | 135.13 | non | 9 | Passifs | index.php:getFieldDefinitions:passifs_add.solde
+passifs_add.solde | 400 | 400 | non | 9 | Passifs | index.php:getFieldDefinitions:passifs_add.solde
+passifs_add.solde |  |  | non | 3 | Passifs | index.php:getFieldDefinitions:passifs_add.solde
+passifs_add.solde | 700 | 700 | non | 1 | Passifs | index.php:getFieldDefinitions:passifs_add.solde
+passifs_add.solde | 0 | 0 | non | 1 | Passifs | index.php:getFieldDefinitions:passifs_add.solde
+passifs_add.banque | RBC | RBC | non | 5 | Passifs | index.php:getFieldDefinitions:passifs_add.banque
+passifs_add.banque | TD | TD | non | 9 | Passifs | index.php:getFieldDefinitions:passifs_add.banque
+passifs_add.banque | Desjardins | Desjardins | non | 2 | Passifs | index.php:getFieldDefinitions:passifs_add.banque
+passifs_add.banque |  |  | non | 3 | Passifs | index.php:getFieldDefinitions:passifs_add.banque
+passifs_add.banque | BNC | BNC | non | 1 | Passifs | index.php:getFieldDefinitions:passifs_add.banque
+passifs_add.banque | CIBC | CIBC | non | 2 | Passifs | index.php:getFieldDefinitions:passifs_add.banque
+passifs_add.banque | TD voyage | TD voyage | non | 1 | Passifs | index.php:getFieldDefinitions:passifs_add.banque
+passifs_add.banque_pret |  |  | non | 20 | Passifs | index.php:getFieldDefinitions:passifs_add.banque_pret
+passifs_add.banque_pret | TD | TD | non | 1 | Passifs | index.php:getFieldDefinitions:passifs_add.banque_pret
+passifs_add.banque_pret | CIBC | CIBC | non | 1 | Passifs | index.php:getFieldDefinitions:passifs_add.banque_pret
+passifs_add.banque_pret | RBC | RBC | non | 1 | Passifs | index.php:getFieldDefinitions:passifs_add.banque_pret
+passifs_add.terme_restant |  |  | non | 23 | Passifs | index.php:getFieldDefinitions:passifs_add.terme_restant
+passifs_add.paiement_minimum |  |  | non | 23 | Passifs | index.php:getFieldDefinitions:passifs_add.paiement_minimum
+faillite_option |  | -- Sélectionnez -- | oui | 0 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_option
+faillite_option | faillite_moins_10 | Oui, j’ai fait une faillite depuis moins de 10 ans* | oui | 0 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_option
+faillite_option | proposition_moins_10 | Oui, j’ai fait une proposition au consommateur depuis moins de 10 ans* | oui | 0 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_option
+faillite_option | faillite_proposition_plus_10 | Oui, j’ai déjà fait faillite ou proposition au consommateur mais ça fait plus de 10 ans* | oui | 4 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_option
+faillite_option | non | Non jamais | oui | 16 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_option
+faillite_montant |  |  | non | 16 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_montant
+faillite_montant | 75000 | 75000 | non | 2 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_montant
+faillite_montant | 50000 | 50000 | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_montant
+faillite_montant | 18000 | 18000 | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_montant
+faillite_date_declaree |  |  | non | 16 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_date_declaree
+faillite_date_declaree | 2010-01-01 | 2010-01-01 | non | 2 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_date_declaree
+faillite_date_declaree | 2003-01-01 | 2003-01-01 | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_date_declaree
+faillite_date_declaree | 2014-10-10 | 2014-10-10 | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_date_declaree
+faillite_date_liberation |  |  | non | 16 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_date_liberation
+faillite_date_liberation | 2017-01-01 | 2017-01-01 | non | 2 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_date_liberation
+faillite_date_liberation | 2010-01-01 | 2010-01-01 | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_date_liberation
+faillite_date_liberation | 2021-10-10 | 2021-10-10 | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_date_liberation
+score_credit_option |  | -- Sélectionnez -- | oui | 0 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:score_credit_option
+score_credit_option | oui | Oui | oui | 9 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:score_credit_option
+score_credit_option | non | Non | oui | 11 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:score_credit_option
+credit_score |  |  | non | 11 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:credit_score
+credit_score | 700 | 700 | non | 2 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:credit_score
+credit_score | 623 | 623 | non | 2 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:credit_score
+credit_score | 637 | 637 | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:credit_score
+credit_score | 810 | 810 | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:credit_score
+credit_score | 847 | 847 | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:credit_score
+credit_score | 714 | 714 | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:credit_score
+credit_score | 743 | 743 | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:credit_score
+paiements_manques |  |  | non | 11 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:paiements_manques
+paiements_manques | oui | oui | non | 2 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:paiements_manques
+paiements_manques | non | non | non | 4 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:paiements_manques
+paiements_manques | Non | Non | non | 2 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:paiements_manques
+paiements_manques | NON | NON | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:paiements_manques
+paiements_utilisation |  |  | non | 11 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:paiements_utilisation
+paiements_utilisation | oui | oui | non | 7 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:paiements_utilisation
+paiements_utilisation | OUI | OUI | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:paiements_utilisation
+paiements_utilisation | Oui | Oui | non | 1 | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:paiements_utilisation
+proprietes_presence |  | -- Sélectionnez -- | oui | 0 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes_presence
+proprietes_presence | Oui | Oui | oui | 9 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes_presence
+proprietes_presence | Non | Non | oui | 11 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes_presence
+proprietes | (aucune) |  | non | 0 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes
+proprietes.adresse_complete | 590 rue pépin | 590 rue pépin | non | 1 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.adresse_complete
+proprietes.adresse_complete | 800 | 800 | non | 1 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.adresse_complete
+proprietes.adresse_complete | 774 rue lafleur | 774 rue lafleur | non | 1 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.adresse_complete
+proprietes.refinancer |  | -- Sélectionnez -- | oui | 0 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.refinancer
+proprietes.refinancer | Oui | Oui | oui | 2 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.refinancer
+proprietes.refinancer | Non | Non | oui | 1 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.refinancer
+proprietes.pret_hypothecaire |  | -- Sélectionnez -- | oui | 0 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.pret_hypothecaire
+proprietes.pret_hypothecaire | Oui | Oui | oui | 3 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.pret_hypothecaire
+proprietes.pret_hypothecaire | Non | Non | oui | 0 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.pret_hypothecaire
+proprietes.date_renouvellement | 2928-10-10 | 2928-10-10 | non | 1 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.date_renouvellement
+proprietes.date_renouvellement | 2025-12-12 | 2025-12-12 | non | 1 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.date_renouvellement
+proprietes.date_renouvellement | 2025-09-30 | 2025-09-30 | non | 1 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.date_renouvellement
+proprietes.type |  | -- Sélectionnez -- | oui | 0 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.type
+proprietes.type | Propriétaire Occupant | Propriétaire Occupant | oui | 2 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.type
+proprietes.type | Propriétaire Occupant et Locatif | Propriétaire Occupant et Locatif | oui | 0 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.type
+proprietes.type | 100% Locatif | 100% Locatif | oui | 1 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.type
+proprietes.taxes_municipales | 3000 | 3000 | non | 3 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.taxes_municipales
+proprietes.taxes_scolaires | 500 | 500 | non | 3 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.taxes_scolaires
+proprietes.autres_personnes | qc | qc | non | 1 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.autres_personnes
+proprietes.autres_personnes | NON | NON | non | 1 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.autres_personnes
+proprietes.autres_personnes | Non | Non | non | 1 | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.autres_personnes
+solde_hypothecaire |  |  | non | 12 | Propriété à refinancer | index.php:getFieldDefinitions:solde_hypothecaire
+solde_hypothecaire | 142000 | 142000 | non | 8 | Propriété à refinancer | index.php:getFieldDefinitions:solde_hypothecaire
+montant_versement |  |  | non | 12 | Propriété à refinancer | index.php:getFieldDefinitions:montant_versement
+montant_versement | 259.40 | 259.40 | non | 8 | Propriété à refinancer | index.php:getFieldDefinitions:montant_versement
+type_versement |  | -- Sélectionnez -- | oui | 12 | Propriété à refinancer | index.php:getFieldDefinitions:type_versement
+type_versement | Mensuel | Mensuel | oui | 0 | Propriété à refinancer | index.php:getFieldDefinitions:type_versement
+type_versement | Aux 2 semaines | Aux 2 semaines | oui | 0 | Propriété à refinancer | index.php:getFieldDefinitions:type_versement
+type_versement | 2 fois par mois | 2 fois par mois | oui | 0 | Propriété à refinancer | index.php:getFieldDefinitions:type_versement
+type_versement | Hebdomadaire | Hebdomadaire | oui | 0 | Propriété à refinancer | index.php:getFieldDefinitions:type_versement
+type_versement | hebdomadaire | hebdomadaire | non | 8 | Propriété à refinancer | index.php:getFieldDefinitions:type_versement
+paiement_accelere |  | -- Sélectionnez -- | oui | 12 | Propriété à refinancer | index.php:getFieldDefinitions:paiement_accelere
+paiement_accelere | Oui | Oui | oui | 0 | Propriété à refinancer | index.php:getFieldDefinitions:paiement_accelere
+paiement_accelere | Non | Non | oui | 0 | Propriété à refinancer | index.php:getFieldDefinitions:paiement_accelere
+paiement_accelere | non | non | non | 6 | Propriété à refinancer | index.php:getFieldDefinitions:paiement_accelere
+paiement_accelere | oui | oui | non | 2 | Propriété à refinancer | index.php:getFieldDefinitions:paiement_accelere
+valeur_estimee |  |  | non | 12 | Propriété à refinancer | index.php:getFieldDefinitions:valeur_estimee
+valeur_estimee | 375000 | 375000 | non | 8 | Propriété à refinancer | index.php:getFieldDefinitions:valeur_estimee
+valeur_achat |  |  | non | 12 | Propriété à refinancer | index.php:getFieldDefinitions:valeur_achat
+valeur_achat | 239000 | 239000 | non | 8 | Propriété à refinancer | index.php:getFieldDefinitions:valeur_achat
+annee_construction |  |  | non | 8 | Propriété à refinancer | index.php:getFieldDefinitions:annee_construction
+annee_construction | 1985 | 1985 | non | 4 | Propriété à refinancer | index.php:getFieldDefinitions:annee_construction
+grandeur_etage_pieds |  |  | non | 8 | Propriété à refinancer | index.php:getFieldDefinitions:grandeur_etage_pieds
+grandeur_etage_pieds | 1800 | 1800 | non | 4 | Propriété à refinancer | index.php:getFieldDefinitions:grandeur_etage_pieds
+nombre_niveaux |  |  | non | 8 | Propriété à refinancer | index.php:getFieldDefinitions:nombre_niveaux
+nombre_niveaux | 2 | 2 | non | 4 | Propriété à refinancer | index.php:getFieldDefinitions:nombre_niveaux
+consolider_dette |  | -- Sélectionnez -- | oui | 8 | Propriété à refinancer | index.php:getFieldDefinitions:consolider_dette
+consolider_dette | oui | Oui | oui | 3 | Propriété à refinancer | index.php:getFieldDefinitions:consolider_dette
+consolider_dette | non | Non | oui | 0 | Propriété à refinancer | index.php:getFieldDefinitions:consolider_dette
+amortissement_desire |  |  | non | 12 | Propriété à refinancer | index.php:getFieldDefinitions:amortissement_desire
+amortissement_desire | 30 | 30 | non | 8 | Propriété à refinancer | index.php:getFieldDefinitions:amortissement_desire
+terme_souhaite | 1 an | 1 an | oui | 0 | Propriété à refinancer | index.php:getFieldDefinitions:terme_souhaite
+terme_souhaite | 2 ans | 2 ans | oui | 1 | Propriété à refinancer | index.php:getFieldDefinitions:terme_souhaite
+terme_souhaite | 3 ans | 3 ans | oui | 1 | Propriété à refinancer | index.php:getFieldDefinitions:terme_souhaite
+terme_souhaite | 4 ans | 4 ans | oui | 1 | Propriété à refinancer | index.php:getFieldDefinitions:terme_souhaite
+terme_souhaite | 5 ans | 5 ans | oui | 7 | Propriété à refinancer | index.php:getFieldDefinitions:terme_souhaite
+terme_souhaite | 6 ans | 6 ans | oui | 0 | Propriété à refinancer | index.php:getFieldDefinitions:terme_souhaite
+terme_souhaite | 7 ans | 7 ans | oui | 1 | Propriété à refinancer | index.php:getFieldDefinitions:terme_souhaite
+terme_souhaite | 10 ans | 10 ans | oui | 0 | Propriété à refinancer | index.php:getFieldDefinitions:terme_souhaite
+montant_ajouter |  |  | non | 15 | Propriété à refinancer | index.php:getFieldDefinitions:montant_ajouter
+montant_ajouter | 60000 | 60000 | non | 2 | Propriété à refinancer | index.php:getFieldDefinitions:montant_ajouter
+montant_ajouter | 20000 | 20000 | non | 2 | Propriété à refinancer | index.php:getFieldDefinitions:montant_ajouter
+montant_ajouter | 15000 | 15000 | non | 1 | Propriété à refinancer | index.php:getFieldDefinitions:montant_ajouter
+usage_fonds |  |  | non | 15 | Propriété à refinancer | index.php:getFieldDefinitions:usage_fonds
+usage_fonds | marge de crédit pour faire des traux cuisine et sdb | marge de crédit pour faire des traux cuisine et sdb | non | 2 | Propriété à refinancer | index.php:getFieldDefinitions:usage_fonds
+usage_fonds | Rénos | Rénos | non | 2 | Propriété à refinancer | index.php:getFieldDefinitions:usage_fonds
+usage_fonds | rénos | rénos | non | 1 | Propriété à refinancer | index.php:getFieldDefinitions:usage_fonds
+mise_de_fonds_option |  | -- Sélectionnez -- | oui | 7 | Nouvel achat | index.php:getFieldDefinitions:mise_de_fonds_option
+mise_de_fonds_option | minimal | Je ne veux pas mettre plus que la mise de fonds minimale requise | oui | 7 | Nouvel achat | index.php:getFieldDefinitions:mise_de_fonds_option
+mise_de_fonds_option | fixe | J'ai un montant fixe que je veux utiliser pour ma mise de fonds | oui | 6 | Nouvel achat | index.php:getFieldDefinitions:mise_de_fonds_option
+montant_mise_de_fonds | 15000 | 15000 | non | 9 | Nouvel achat | index.php:getFieldDefinitions:montant_mise_de_fonds
+montant_mise_de_fonds | 30000 | 30000 | non | 4 | Nouvel achat | index.php:getFieldDefinitions:montant_mise_de_fonds
+montant_mise_de_fonds |  |  | non | 7 | Nouvel achat | index.php:getFieldDefinitions:montant_mise_de_fonds
+compte_depuis_3mois |  | -- Sélectionnez -- | oui | 7 | Nouvel achat | index.php:getFieldDefinitions:compte_depuis_3mois
+compte_depuis_3mois | Oui | Oui | oui | 0 | Nouvel achat | index.php:getFieldDefinitions:compte_depuis_3mois
+compte_depuis_3mois | Non | Non | oui | 0 | Nouvel achat | index.php:getFieldDefinitions:compte_depuis_3mois
+compte_depuis_3mois | oui | oui | non | 11 | Nouvel achat | index.php:getFieldDefinitions:compte_depuis_3mois
+compte_depuis_3mois | non | non | non | 2 | Nouvel achat | index.php:getFieldDefinitions:compte_depuis_3mois
+assurance_vie_conseiller |  | -- Sélectionnez -- | oui | 0 | Assurances | index.php:getFieldDefinitions:assurance_vie_conseiller
+assurance_vie_conseiller | conseiller_deja | J’ai déjà mon conseiller en sécurité financière et mes assurances-vie reliées à la propriété | oui | 5 | Assurances | index.php:getFieldDefinitions:assurance_vie_conseiller
+assurance_vie_conseiller | options_moins_cher | J’aimerais regarder les options pour voir ce qui est le moins cher pour les meilleures conditions et avoir les conseils économiques d’un professionnel gratuitement si vous pouvez m’en référer un svp | oui | 3 | Assurances | index.php:getFieldDefinitions:assurance_vie_conseiller
+assurance_vie_conseiller | pas_magasiner | Je ne veux pas magasiner d’assurance-vie, ça ne me dérange pas de ne pas avoir de protection en cas d’imprévus ou de décès | oui | 3 | Assurances | index.php:getFieldDefinitions:assurance_vie_conseiller
+assurance_vie_conseiller | assurance_nouveau_preteur | Je préfère prendre l’assurance qui me sera proposé par le nouveau prêteur ça ne me tente pas de magasiner un prix je veux l’option facile même si les conditions pourraient être un peu moins avantageuses | oui | 0 | Assurances | index.php:getFieldDefinitions:assurance_vie_conseiller
+assurance_habitation_courtier |  | -- Sélectionnez -- | oui | 0 | Assurances | index.php:getFieldDefinitions:assurance_habitation_courtier
+assurance_habitation_courtier | referer_courtier | Svp référez-moi un courtier pour faire un choix économique facilement | oui | 5 | Assurances | index.php:getFieldDefinitions:assurance_habitation_courtier
+assurance_habitation_courtier | deja_contacte | J’ai déjà contacté un assureur et je ne suis pas intéressé de chercher à trouver moins cher avec un courtier en assurance | oui | 6 | Assurances | index.php:getFieldDefinitions:assurance_habitation_courtier
+notaire_nom | Me Notaria Plus | Me Notaria Plus | non | 1 | Informations du notaire | index.php:getFieldDefinitions:notaire_nom
+notaire_telephone | 5141111111 | 5141111111 | non | 1 | Informations du notaire | index.php:getFieldDefinitions:notaire_telephone
+notaire_email | fakenotaire@notarius.com | fakenotaire@notarius.com | non | 1 | Informations du notaire | index.php:getFieldDefinitions:notaire_email
+notaire_adresse | 11 rue Jambon, Montreal, QC, H1H2H2 | 11 rue Jambon, Montreal, QC, H1H2H2 | non | 1 | Informations du notaire | index.php:getFieldDefinitions:notaire_adresse

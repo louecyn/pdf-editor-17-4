@@ -1,0 +1,384 @@
+{
+    "classes": [
+        {
+            "id": "qa_6f7ab2e81d",
+            "code": "QA_A2025_IDENT",
+            "title": "Analyse 2025 – Identification des clients",
+            "description": "Questions communes et règles automatiques pour insérer les informations d'identité dans l'analyse 2025.",
+            "questions": [
+                {
+                    "id": "qq_4ad95d2a4b",
+                    "label": "Nom complet du client principal",
+                    "type": "open",
+                    "coordinate": "",
+                    "required": true,
+                    "allowMultiple": false,
+                    "renderMode": "standard",
+                    "code": "QQ_CLI1",
+                    "notes": "Prérempli avec le nom du client sélectionné au rang 1.",
+                    "options": [],
+                    "auto": [],
+                    "metadata": {
+                        "groups": [
+                            "client"
+                        ],
+                        "targetRank": 1
+                    }
+                },
+                {
+                    "id": "qq_aa83f14cc0",
+                    "label": "Nom complet du co-emprunteur",
+                    "type": "open",
+                    "coordinate": "",
+                    "required": false,
+                    "allowMultiple": false,
+                    "renderMode": "standard",
+                    "code": "QQ_CLI2",
+                    "notes": "Prérempli si un deuxième client est sélectionné.",
+                    "options": [],
+                    "auto": [],
+                    "metadata": {
+                        "groups": [
+                            "client"
+                        ],
+                        "targetRank": 2
+                    }
+                },
+                {
+                    "id": "qq_5f0b18d203",
+                    "label": "Numéro de dossier interne",
+                    "type": "open",
+                    "coordinate": "",
+                    "required": true,
+                    "allowMultiple": false,
+                    "renderMode": "standard",
+                    "code": "QQ_DOSSIER",
+                    "notes": "Synchronisé avec le numéro de dossier commun.",
+                    "options": [],
+                    "auto": [],
+                    "metadata": {
+                        "groups": [
+                            "fused"
+                        ]
+                    }
+                }
+            ],
+            "responseBlobs": [],
+            "autoSelections": [
+                {
+                    "id": "as_1c39df7b24",
+                    "label": "Nom complet – client principal",
+                    "requestPath": "variables.nom_complet",
+                    "conditionType": "not_empty",
+                    "conditionTerms": [],
+                    "valueSource": "request",
+                    "valuePath": "variables.nom_complet",
+                    "valueLiteral": "",
+                    "fallback": "",
+                    "coordinate": "page=1;x=156.29;y=136.59",
+                    "notes": "Insère le nom du client principal dans l'en-tête.",
+                    "metadata": {
+                        "targetRanks": [
+                            1
+                        ]
+                    }
+                },
+                {
+                    "id": "as_72f5b81c90",
+                    "label": "Nom complet – co-emprunteur",
+                    "requestPath": "variables.nom_complet",
+                    "conditionType": "not_empty",
+                    "conditionTerms": [],
+                    "valueSource": "request",
+                    "valuePath": "variables.nom_complet",
+                    "valueLiteral": "",
+                    "fallback": "",
+                    "coordinate": "page=1;x=166.29;y=152.05",
+                    "notes": "Insère le nom du deuxième client lorsqu'il est présent.",
+                    "metadata": {
+                        "targetRanks": [
+                            2
+                        ]
+                    }
+                },
+                {
+                    "id": "as_4f0d82a7e3",
+                    "label": "Numéro de dossier",
+                    "requestPath": "variables.file_number",
+                    "conditionType": "not_empty",
+                    "conditionTerms": [],
+                    "valueSource": "request",
+                    "valuePath": "variables.file_number",
+                    "valueLiteral": "",
+                    "fallback": "",
+                    "coordinate": "page=1;x=147.20;y=169.32",
+                    "notes": "Recopie automatiquement le numéro de dossier interne.",
+                    "metadata": {
+                        "targetRanks": [
+                            1
+                        ]
+                    }
+                },
+                {
+                    "id": "as_bc4d1c2355",
+                    "label": "Adresse à financer",
+                    "requestPath": "adresses.1.numero_rue",
+                    "conditionType": "not_empty",
+                    "conditionTerms": [],
+                    "valueSource": "request",
+                    "valuePath": "adresses.1.numero_rue",
+                    "valueLiteral": "",
+                    "fallback": "",
+                    "coordinate": "page=1;x=211;y=336",
+                    "notes": "",
+                    "metadata": []
+                }
+            ],
+            "metadata": {
+                "category": "analyse2025",
+                "notes": "Section identité"
+            },
+            "documentId": "tpl_6372302c",
+            "documentName": "Analyse 2025"
+        },
+        {
+            "id": "qa_2b3f9c7410",
+            "code": "QA_A2025_LENDER",
+            "title": "Analyse 2025 – Offre et prêteur",
+            "description": "Règles automatiques pour les informations sur le prêteur sélectionné et le montage hypothécaire.",
+            "questions": [
+                {
+                    "id": "qq_78c5e12f6a",
+                    "label": "Prêteur choisi",
+                    "type": "open",
+                    "coordinate": "",
+                    "required": true,
+                    "allowMultiple": false,
+                    "renderMode": "standard",
+                    "code": "QQ_PRETEUR",
+                    "notes": "S'appuie sur les données du dossier général.",
+                    "options": [],
+                    "auto": {
+                        "source": "fused",
+                        "path": "chosen_lender",
+                        "fallback": ""
+                    },
+                    "metadata": {
+                        "fused": true
+                    }
+                },
+                {
+                    "id": "qq_6d4f3a09ce",
+                    "label": "Type de taux choisi",
+                    "type": "open",
+                    "coordinate": "",
+                    "required": true,
+                    "allowMultiple": false,
+                    "renderMode": "standard",
+                    "code": "QQ_TAUX_TYPE",
+                    "notes": "Prérempli par la donnée commune.",
+                    "options": [],
+                    "auto": {
+                        "source": "fused",
+                        "path": "chosen_rate_type",
+                        "fallback": ""
+                    },
+                    "metadata": {
+                        "fused": true
+                    }
+                },
+                {
+                    "id": "qq_9b1c0f73ad",
+                    "label": "% du taux choisi",
+                    "type": "open",
+                    "coordinate": "",
+                    "required": true,
+                    "allowMultiple": false,
+                    "renderMode": "standard",
+                    "code": "QQ_TAUX_VAL",
+                    "notes": "Saisie ou import automatique du pourcentage.",
+                    "options": [],
+                    "auto": {
+                        "source": "fused",
+                        "path": "chosen_rate_percentage",
+                        "fallback": ""
+                    },
+                    "metadata": {
+                        "fused": true
+                    }
+                },
+                {
+                    "id": "qq_e27f46b81d",
+                    "label": "Versement hypothécaire",
+                    "type": "open",
+                    "coordinate": "",
+                    "required": false,
+                    "allowMultiple": false,
+                    "renderMode": "standard",
+                    "code": "QQ_VERSEMENT",
+                    "notes": "Permet de personnaliser le versement en fonction du scénario.",
+                    "options": [],
+                    "auto": {
+                        "source": "fused",
+                        "path": "chosen_mortgage_payment",
+                        "fallback": ""
+                    },
+                    "metadata": {
+                        "fused": true
+                    }
+                },
+                {
+                    "id": "qq_5de0f47c92",
+                    "label": "Raisons du choix du prêteur",
+                    "type": "open",
+                    "coordinate": "",
+                    "required": false,
+                    "allowMultiple": false,
+                    "renderMode": "standard",
+                    "code": "QQ_RAISON",
+                    "notes": "Texte explicatif affiché dans la zone des avantages\/inconvénients.",
+                    "options": [],
+                    "auto": {
+                        "source": "fused",
+                        "path": "reason_behind_lender_choice",
+                        "fallback": ""
+                    },
+                    "metadata": {
+                        "fused": true
+                    }
+                }
+            ],
+            "responseBlobs": [],
+            "autoSelections": [
+                {
+                    "id": "as_b8702d1f45",
+                    "label": "Prêteur choisi",
+                    "requestPath": "variables.chosen_lender",
+                    "conditionType": "not_empty",
+                    "conditionTerms": [],
+                    "valueSource": "request",
+                    "valuePath": "variables.chosen_lender",
+                    "valueLiteral": "",
+                    "fallback": "",
+                    "coordinate": "page=2;x=99.02;y=629.15",
+                    "notes": "Complète la zone prêteur dans la section montage.",
+                    "metadata": {
+                        "fused": true
+                    }
+                },
+                {
+                    "id": "as_16f35c809a",
+                    "label": "Type de taux",
+                    "requestPath": "variables.chosen_rate_type",
+                    "conditionType": "not_empty",
+                    "conditionTerms": [],
+                    "valueSource": "request",
+                    "valuePath": "variables.chosen_rate_type",
+                    "valueLiteral": "",
+                    "fallback": "",
+                    "coordinate": "page=2;x=115.38;y=645.51",
+                    "notes": "Affiche le type de taux retenu.",
+                    "metadata": {
+                        "fused": true
+                    }
+                },
+                {
+                    "id": "as_3e0d4b9c72",
+                    "label": "% du taux",
+                    "requestPath": "variables.chosen_rate_percentage",
+                    "conditionType": "not_empty",
+                    "conditionTerms": [],
+                    "valueSource": "request",
+                    "valuePath": "variables.chosen_rate_percentage",
+                    "valueLiteral": "",
+                    "fallback": "",
+                    "coordinate": "page=2;x=467.20;y=646.42",
+                    "notes": "Inscrit le pourcentage du taux.",
+                    "metadata": {
+                        "fused": true
+                    }
+                },
+                {
+                    "id": "as_57c0ab61de",
+                    "label": "Versement hypothécaire",
+                    "requestPath": "variables.chosen_mortgage_payment",
+                    "conditionType": "not_empty",
+                    "conditionTerms": [],
+                    "valueSource": "request",
+                    "valuePath": "variables.chosen_mortgage_payment",
+                    "valueLiteral": "",
+                    "fallback": "",
+                    "coordinate": "page=2;x=407.20;y=660.97",
+                    "notes": "Recopie le versement prévu.",
+                    "metadata": {
+                        "fused": true
+                    }
+                },
+                {
+                    "id": "as_f2849c0a61",
+                    "label": "Raisons du choix du prêteur",
+                    "requestPath": "variables.reason_behind_lender_choice",
+                    "conditionType": "not_empty",
+                    "conditionTerms": [],
+                    "valueSource": "request",
+                    "valuePath": "variables.reason_behind_lender_choice",
+                    "valueLiteral": "",
+                    "fallback": "",
+                    "coordinate": "page=2;x=58.11;y=708.24",
+                    "notes": "Affiche le texte explicatif de la sélection.",
+                    "metadata": {
+                        "fused": true
+                    }
+                }
+            ],
+            "metadata": {
+                "category": "analyse2025",
+                "notes": "Section montage et prêteur"
+            },
+            "documentId": "tpl_6372302c",
+            "documentName": "Analyse 2025"
+        },
+        {
+            "id": "qa_157900e898",
+            "code": "QA_KK4WD4",
+            "title": "Crochet de vérification de capacité juridique pour le CANAFE",
+            "description": "Cette classe ajoute un crochet pour confirmer la capacité juridique des clients dans le formulaire de consentement.",
+            "questions": [],
+            "responseBlobs": [],
+            "autoSelections": [
+                {
+                    "id": "as_a115c98791",
+                    "label": "Vérification de capacité juridique client 1",
+                    "requestPath": "formData.prenom",
+                    "conditionType": "not_empty",
+                    "conditionTerms": [],
+                    "valueSource": "literal",
+                    "valuePath": "",
+                    "valueLiteral": "x",
+                    "fallback": "",
+                    "coordinate": "page=1;x=394;y=416",
+                    "notes": "",
+                    "metadata": {
+                        "dynamicCoordinates": {
+                            "enabled": true,
+                            "mode": "maxClients",
+                            "maxClients": [
+                                {
+                                    "count": 2,
+                                    "label": "Crochet de vérification de capacité juridique en cas où il y a 2 emprunteurs dans le dossier",
+                                    "coordinates": [
+                                        "page=1;x=394;y=416",
+                                        "page=1;x=393;y=444"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "metadata": [],
+            "documentId": "tpl_9226d4d9",
+            "documentName": "Consentement à signer pour sortir le bureau de crédit pour une qualification hypothécaire"
+        }
+    ]
+}

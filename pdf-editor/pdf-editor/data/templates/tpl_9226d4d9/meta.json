@@ -1,0 +1,211 @@
+{
+    "id": "tpl_9226d4d9",
+    "name": "Consentement à signer pour sortir le bureau de crédit pour une qualification hypothécaire",
+    "fileName": "consentement-signer-pour-sortir-le-bureau-de-cr-dit-pour-une.pdf",
+    "createdAt": "2026-01-12T22:09:55-05:00",
+    "updatedAt": "2026-01-12T22:09:55-05:00",
+    "maxClients": 2,
+    "variableMappings": [
+        {
+            "key": "nom_complet",
+            "label": "Nom complet – Client 1",
+            "ranks": {
+                "1": [
+                    "efe4c20b-ab57-4296-a95e-6b1f4a4311be"
+                ]
+            }
+        },
+        {
+            "key": "nom_complet",
+            "label": "Nom complet – Client 2",
+            "ranks": {
+                "2": [
+                    "4bb5349b-d97c-48d2-b093-b5e9e5c43236"
+                ]
+            }
+        },
+        {
+            "key": "adresses",
+            "label": "Historique d’adresses – Client 1",
+            "ranks": {
+                "1": [
+                    "d5193016-a084-4076-8d70-9f7caaf72d0f"
+                ]
+            }
+        },
+        {
+            "key": "adresses",
+            "label": "Historique d’adresses – Client 2",
+            "ranks": {
+                "2": [
+                    "9de10f80-5e92-484c-9cbe-7e9f41886941"
+                ]
+            }
+        }
+    ],
+    "elements": [
+        {
+            "id": "efe4c20b-ab57-4296-a95e-6b1f4a4311be",
+            "type": "text",
+            "page": 0,
+            "x": 146.80397727272725,
+            "y": 262.95454545454544,
+            "width": 212.72727272727272,
+            "height": 56.71874999999999,
+            "text": "{{nom_complet_no1}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "nom_complet_no1",
+                    "baseKey": "nom_complet",
+                    "label": "Nom complet – Client 1",
+                    "groupId": "request",
+                    "rank": 1,
+                    "placeholder": "{{nom_complet_no1}}"
+                }
+            }
+        },
+        {
+            "id": "4bb5349b-d97c-48d2-b093-b5e9e5c43236",
+            "type": "text",
+            "page": 0,
+            "x": 143.16761363636363,
+            "y": 309.3181818181818,
+            "width": 214.54545454545453,
+            "height": 58.53693181818181,
+            "text": "{{nom_complet_no2}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "nom_complet_no2",
+                    "baseKey": "nom_complet",
+                    "label": "Nom complet – Client 2",
+                    "groupId": "request",
+                    "rank": 2,
+                    "placeholder": "{{nom_complet_no2}}"
+                }
+            }
+        },
+        {
+            "id": "d5193016-a084-4076-8d70-9f7caaf72d0f",
+            "type": "text",
+            "page": 0,
+            "x": 124.98579545454544,
+            "y": 287.5,
+            "width": 216.36363636363635,
+            "height": 60.35511363636363,
+            "text": "{{adresses_no1}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "adresses_no1",
+                    "baseKey": "adresses",
+                    "label": "Historique d’adresses – Client 1",
+                    "groupId": "request",
+                    "rank": 1,
+                    "placeholder": "{{adresses_no1}}"
+                }
+            }
+        },
+        {
+            "id": "9de10f80-5e92-484c-9cbe-7e9f41886941",
+            "type": "text",
+            "page": 0,
+            "x": 124.07670454545453,
+            "y": 332.95454545454544,
+            "width": 218.18181818181816,
+            "height": 62.173295454545446,
+            "text": "{{adresses_no2}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "adresses_no2",
+                    "baseKey": "adresses",
+                    "label": "Historique d’adresses – Client 2",
+                    "groupId": "request",
+                    "rank": 2,
+                    "placeholder": "{{adresses_no2}}"
+                }
+            }
+        },
+        {
+            "id": "2a7b1083-74c6-41f7-84a3-1b8fe7580f90",
+            "type": "text",
+            "page": 1,
+            "x": 213.16761363636363,
+            "y": 345.5113636363636,
+            "width": 214.54545454545453,
+            "height": 58.53693181818181,
+            "text": "25",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "71a0646b-7f13-4a0c-8a2a-c52891241c01",
+            "type": "text",
+            "page": 1,
+            "x": 218.62215909090907,
+            "y": 368.2386363636363,
+            "width": 216.36363636363635,
+            "height": 60.35511363636363,
+            "text": "6",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "3bf96e46-286b-4952-9612-74cf39863c05",
+            "type": "text",
+            "page": 1,
+            "x": 456.80397727272725,
+            "y": 400.96590909090907,
+            "width": 218.18181818181816,
+            "height": 62.173295454545446,
+            "text": "N\/A",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        }
+    ],
+    "questionSettings": {
+        "classes": [],
+        "selectedBlobs": []
+    }
+}

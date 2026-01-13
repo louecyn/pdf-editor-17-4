@@ -1,0 +1,377 @@
+{
+    "groups": [
+        {
+            "id": "admin",
+            "label": "Mes coordonnées",
+            "source": "admin_profile",
+            "fields": [
+                {
+                    "key": "my_first_name",
+                    "label": "Prénom"
+                },
+                {
+                    "key": "my_last_name",
+                    "label": "Nom"
+                },
+                {
+                    "key": "my_phone_number",
+                    "label": "Numéro de téléphone"
+                },
+                {
+                    "key": "my_email",
+                    "label": "Courriel"
+                },
+                {
+                    "key": "my_job_title",
+                    "label": "Titre du poste"
+                },
+                {
+                    "key": "my_permit_number",
+                    "label": "Numéro de permis de l’AMF"
+                },
+                {
+                    "key": "my_agency_name",
+                    "label": "Nom de l’agence"
+                }
+            ]
+        },
+        {
+            "id": "fused",
+            "label": "Dossier général",
+            "source": "fused",
+            "fields": [
+                {
+                    "key": "file_number",
+                    "label": "Numéro de dossier"
+                },
+                {
+                    "key": "co_borrower",
+                    "label": "Nom du co-emprunteur"
+                },
+                {
+                    "key": "new_product_presentation_date",
+                    "label": "Date de présentation du nouveau produit"
+                },
+                {
+                    "key": "communication_mode",
+                    "label": "Mode de communication"
+                },
+                {
+                    "key": "chosen_lender",
+                    "label": "Prêteur choisi"
+                },
+                {
+                    "key": "chosen_rate_type",
+                    "label": "Type de taux choisi"
+                },
+                {
+                    "key": "chosen_rate_percentage",
+                    "label": "% du taux choisi"
+                },
+                {
+                    "key": "chosen_mortgage_payment",
+                    "label": "Versement hypothécaire"
+                },
+                {
+                    "key": "reasons_behind_product_choice",
+                    "label": "Raisons derrière le choix du produit"
+                },
+                {
+                    "key": "reason_behind_lender_choice",
+                    "label": "Avantages et inconvénients du prêteur"
+                }
+            ]
+        },
+        {
+            "id": "request",
+            "label": "Fiche client",
+            "source": "request",
+            "fields": [
+                {
+                    "key": "type_demande",
+                    "label": "Type de demande"
+                },
+                {
+                    "key": "bilan_process",
+                    "label": "Où en êtes-vous dans votre processus de financement ?"
+                },
+                {
+                    "key": "bilan_importance",
+                    "label": "Quel est le plus important pour vous dans votre financement hypothécaire ?"
+                },
+                {
+                    "key": "bilan_offre",
+                    "label": "Si nous trouvons une offre avantageuse pour vous, seriez-vous prêt à aller de l'avant ?"
+                },
+                {
+                    "key": "bilan_offre_preexistante",
+                    "label": "Avez-vous déjà obtenu une offre ou préqualification d’une autre institution financière ?"
+                },
+                {
+                    "key": "bilan_documents_rassembles",
+                    "label": "Avez-vous déjà rassemblé certains documents financiers ?"
+                },
+                {
+                    "key": "bilan_date_limite",
+                    "label": "Avez-vous une date limite pour finaliser votre financement ?"
+                },
+                {
+                    "key": "date_limite_precise",
+                    "label": "Indiquez la date limite"
+                },
+                {
+                    "key": "titre_politesse",
+                    "label": "Titre de politesse"
+                },
+                {
+                    "key": "prenom",
+                    "label": "Prénom"
+                },
+                {
+                    "key": "nom",
+                    "label": "Nom"
+                },
+                {
+                    "key": "nom_complet",
+                    "label": "Nom complet"
+                },
+                {
+                    "key": "dob",
+                    "label": "Date de naissance (AAAA\/MM\/JJ)"
+                },
+                {
+                    "key": "etat_civil",
+                    "label": "État civil"
+                },
+                {
+                    "key": "regime_matrimonial",
+                    "label": "Type de régime matrimonial"
+                },
+                {
+                    "key": "veuf_option",
+                    "label": "Pour Veuf\/Veuve, précisez votre situation"
+                },
+                {
+                    "key": "telephone",
+                    "label": "Numéro de téléphone"
+                },
+                {
+                    "key": "email",
+                    "label": "Courriel"
+                },
+                {
+                    "key": "resident",
+                    "label": "Résident du Canada"
+                },
+                {
+                    "key": "nouvel_arrivant",
+                    "label": "Êtes-vous un nouvel arrivant au Canada ?"
+                },
+                {
+                    "key": "nouvel_acheteur",
+                    "label": "Êtes-vous un nouvel acheteur (première propriété) ?"
+                },
+                {
+                    "key": "revenus_autonome_type",
+                    "label": "Type de revenus de travailleur autonome"
+                },
+                {
+                    "key": "piece1_type",
+                    "label": "Pièce d’identité 1 - Type"
+                },
+                {
+                    "key": "piece1_autre_type",
+                    "label": "Pièce d’identité 1 - Précisez le type"
+                },
+                {
+                    "key": "piece1_pays",
+                    "label": "Pièce d’identité 1 - Pays de délivrance"
+                },
+                {
+                    "key": "piece1_numero",
+                    "label": "Pièce d’identité 1 - Numéro"
+                },
+                {
+                    "key": "piece1_expiration",
+                    "label": "Pièce d’identité 1 - Date d’expiration"
+                },
+                {
+                    "key": "piece2_type",
+                    "label": "Pièce d’identité 2 - Type"
+                },
+                {
+                    "key": "piece2_autre_type",
+                    "label": "Pièce d’identité 2 - Précisez le type"
+                },
+                {
+                    "key": "piece2_pays",
+                    "label": "Pièce d’identité 2 - Pays de délivrance"
+                },
+                {
+                    "key": "piece2_numero",
+                    "label": "Pièce d’identité 2 - Numéro"
+                },
+                {
+                    "key": "piece2_expiration",
+                    "label": "Pièce d’identité 2 - Date d’expiration"
+                },
+                {
+                    "key": "faillite_option",
+                    "label": "Faillite ou proposition : Option sélectionnée"
+                },
+                {
+                    "key": "faillite_montant",
+                    "label": "Montant de faillite ou proposition"
+                },
+                {
+                    "key": "faillite_date_declaree",
+                    "label": "Date déclarée"
+                },
+                {
+                    "key": "faillite_date_liberation",
+                    "label": "Date de libération"
+                },
+                {
+                    "key": "score_credit_option",
+                    "label": "Connaissance approximative du score de crédit"
+                },
+                {
+                    "key": "credit_score",
+                    "label": "Score approximatif"
+                },
+                {
+                    "key": "paiements_manques",
+                    "label": "Paiements manqués (raisons)"
+                },
+                {
+                    "key": "paiements_utilisation",
+                    "label": "Historique d’utilisation des paiements"
+                },
+                {
+                    "key": "proprietes_presence",
+                    "label": "Possession de propriétés"
+                },
+                {
+                    "key": "solde_hypothecaire",
+                    "label": "Solde hypothécaire"
+                },
+                {
+                    "key": "montant_versement",
+                    "label": "Montant du versement"
+                },
+                {
+                    "key": "type_versement",
+                    "label": "Type de versement"
+                },
+                {
+                    "key": "paiement_accelere",
+                    "label": "Paiement accéléré"
+                },
+                {
+                    "key": "valeur_estimee",
+                    "label": "Valeur estimée de la propriété"
+                },
+                {
+                    "key": "valeur_achat",
+                    "label": "Valeur de la propriété au moment de l'achat"
+                },
+                {
+                    "key": "annee_construction",
+                    "label": "Année de construction"
+                },
+                {
+                    "key": "grandeur_etage_pieds",
+                    "label": "Grandeur approximative de l’espace à l’étage"
+                },
+                {
+                    "key": "nombre_niveaux",
+                    "label": "Nombre de niveaux ou d’étages"
+                },
+                {
+                    "key": "consolider_dette",
+                    "label": "Souhaitez-vous consolider une dette ?"
+                },
+                {
+                    "key": "amortissement_desire",
+                    "label": "Amortissement désiré"
+                },
+                {
+                    "key": "montant_ajouter",
+                    "label": "Montant à rajouter"
+                },
+                {
+                    "key": "usage_fonds",
+                    "label": "Usage des fonds"
+                },
+                {
+                    "key": "mise_de_fonds_option",
+                    "label": "Option de mise de fonds"
+                },
+                {
+                    "key": "montant_mise_de_fonds",
+                    "label": "Montant de la mise de fonds"
+                },
+                {
+                    "key": "compte_depuis_3mois",
+                    "label": "Compte détenu depuis plus de 3 mois"
+                },
+                {
+                    "key": "assurance_vie_conseiller",
+                    "label": "Avez-vous un conseiller en sécurité financière ?"
+                },
+                {
+                    "key": "assurance_habitation_courtier",
+                    "label": "Avez-vous un courtier en assurance habitation ?"
+                },
+                {
+                    "key": "revenus_checkbox",
+                    "label": "Sources de revenus"
+                },
+                {
+                    "key": "revenus_autonome_structure",
+                    "label": "Type de revenu autonome"
+                },
+                {
+                    "key": "passifs_presence",
+                    "label": "Détenez-vous des dettes ?"
+                },
+                {
+                    "key": "assurance_emploi",
+                    "label": "Avez-vous eu recours à de l’assurance-emploi ?"
+                },
+                {
+                    "key": "assurance_emploi_pourquoi",
+                    "label": "Pourquoi avez-vous eu recours à l’assurance-emploi ?"
+                },
+                {
+                    "key": "arret_travail",
+                    "label": "Je suis en arrêt de travail présentement"
+                },
+                {
+                    "key": "arret_travail_cause",
+                    "label": "Cause de l’arrêt de travail"
+                },
+                {
+                    "key": "arret_travail_duree",
+                    "label": "Durée de l’arrêt de travail"
+                },
+                {
+                    "key": "arret_travail_type_revenu",
+                    "label": "Type de revenu pendant l’arrêt"
+                },
+                {
+                    "key": "arret_travail_date_retour",
+                    "label": "Date de retour au travail"
+                },
+                {
+                    "key": "emplois",
+                    "label": "Historique d’emplois (3 dernières années)"
+                },
+                {
+                    "key": "adresses",
+                    "label": "Historique d’adresses"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,170 @@
+# Cartographie détaillée des valeurs générée le 2025-11-14T15:16:58-05:00
+# Champ | Libellé | Type | Section | Origine | Observations
+type_demande | Type de demande | select | Type de demande | index.php:getFieldDefinitions:type_demande | 20
+bilan_process | Où en êtes-vous dans votre processus de financement ? | select | Bilan | index.php:getFieldDefinitions:bilan_process | 20
+bilan_importance | Quel est le plus important pour vous dans votre financement hypothécaire ? | select | Bilan | index.php:getFieldDefinitions:bilan_importance | 20
+bilan_offre | Si nous trouvons une offre avantageuse pour vous, seriez-vous prêt à aller de l'avant ? | select | Bilan | index.php:getFieldDefinitions:bilan_offre | 20
+bilan_offre_preexistante | Avez-vous déjà obtenu une offre ou préqualification d’une autre institution financière ? | select | Bilan | index.php:getFieldDefinitions:bilan_offre_preexistante | 20
+bilan_documents_rassembles | Avez-vous déjà rassemblé certains documents financiers ? | select | Bilan | index.php:getFieldDefinitions:bilan_documents_rassembles | 20
+bilan_date_limite | Avez-vous une date limite pour finaliser votre financement ? | select | Bilan | index.php:getFieldDefinitions:bilan_date_limite | 20
+date_limite_precise | Indiquez la date limite | date | Bilan | index.php:getFieldDefinitions:date_limite_precise | 20
+titre_politesse | Titre de politesse | select | Informations personnelles | index.php:getFieldDefinitions:titre_politesse | 20
+prenom | Prénom | text | Informations personnelles | index.php:getFieldDefinitions:prenom | 20
+nom | Nom | text | Informations personnelles | index.php:getFieldDefinitions:nom | 20
+dob | Date de naissance (AAAA/MM/JJ) | date | Informations personnelles | index.php:getFieldDefinitions:dob | 20
+etat_civil | État civil | select | Informations personnelles | index.php:getFieldDefinitions:etat_civil | 20
+regime_matrimonial | Type de régime matrimonial (pour Marié) | select | Informations personnelles | index.php:getFieldDefinitions:regime_matrimonial | 20
+veuf_option | Pour Veuf/Veuve, précisez votre situation | select | Informations personnelles | index.php:getFieldDefinitions:veuf_option | 20
+telephone | Numéro de téléphone | text | Informations personnelles | index.php:getFieldDefinitions:telephone | 20
+email | Courriel | email | Informations personnelles | index.php:getFieldDefinitions:email | 20
+resident | Résident du Canada | select | Informations personnelles | index.php:getFieldDefinitions:resident | 20
+nouvel_arrivant | Êtes-vous un nouvel arrivant au Canada ? | select | Informations personnelles | index.php:getFieldDefinitions:nouvel_arrivant | 20
+nouvel_acheteur | Êtes-vous un nouvel acheteur (première propriété) ? | select | Informations personnelles | index.php:getFieldDefinitions:nouvel_acheteur | 20
+piece1_type | Pièce d’identité 1 - Type | select | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_type | 20
+piece1_autre_type | Précisez le type (Pièce 1) | text | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_autre_type | 20
+piece1_pays | Pièce d’identité 1 - Pays de délivrance | text | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_pays | 20
+piece1_numero | Pièce d’identité 1 - Numéro | text | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_numero | 20
+piece1_expiration | Pièce d’identité 1 - Date d’expiration (AAAA/MM/JJ) | date | 2 Pièces d’identités | index.php:getFieldDefinitions:piece1_expiration | 20
+piece2_type | Pièce d’identité 2 - Type | select | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_type | 20
+piece2_autre_type | Précisez le type (Pièce 2) | text | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_autre_type | 20
+piece2_pays | Pièce d’identité 2 - Pays de délivrance | text | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_pays | 20
+piece2_numero | Pièce d’identité 2 - Numéro | text | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_numero | 20
+piece2_expiration | Pièce d’identité 2 - Date d’expiration (AAAA/MM/JJ) | date | 2 Pièces d’identités | index.php:getFieldDefinitions:piece2_expiration | 20
+adresses | Historique d’adresses | repeatable | Historique d’adresses | index.php:getFieldDefinitions:adresses | 0
+adresses.type | Type d’adresse | select | Historique d’adresses | index.php:getFieldDefinitions:adresses.type | 19
+adresses.numero_rue | Numéro civique | text | Historique d’adresses | index.php:getFieldDefinitions:adresses.numero_rue | 19
+adresses.nom_rue | Nom de rue | text | Historique d’adresses | index.php:getFieldDefinitions:adresses.nom_rue | 19
+adresses.appartement | Appartement | text | Historique d’adresses | index.php:getFieldDefinitions:adresses.appartement | 19
+adresses.ville | Ville | text | Historique d’adresses | index.php:getFieldDefinitions:adresses.ville | 19
+adresses.province | Province | text | Historique d’adresses | index.php:getFieldDefinitions:adresses.province | 19
+adresses.code_postal | Code postal | text | Historique d’adresses | index.php:getFieldDefinitions:adresses.code_postal | 19
+adresses.date_debut | Date de début | date | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_debut | 19
+adresses.date_fin | Date de fin | date | Historique d’adresses | index.php:getFieldDefinitions:adresses.date_fin | 19
+adresses.statut | Statut | select | Historique d’adresses | index.php:getFieldDefinitions:adresses.statut | 19
+adresses.cout_loyer | Coût du loyer | text | Historique d’adresses | index.php:getFieldDefinitions:adresses.cout_loyer | 19
+adresses.lien_proprio | Lien avec le propriétaire | text | Historique d’adresses | index.php:getFieldDefinitions:adresses.lien_proprio | 19
+emplois | Historique d’emplois (3 dernières années) | repeatable | Emploi(s) | index.php:getFieldDefinitions:emplois | 0
+emplois.nom_employeur | Nom de l’employeur | text | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_employeur | 19
+emplois.statut | Statut | select | Emploi(s) | index.php:getFieldDefinitions:emplois.statut | 19
+emplois.numero_rue | Numéro de rue | text | Emploi(s) | index.php:getFieldDefinitions:emplois.numero_rue | 19
+emplois.nom_rue | Nom de la rue | text | Emploi(s) | index.php:getFieldDefinitions:emplois.nom_rue | 19
+emplois.bureau | Bureau (si applicable) | text | Emploi(s) | index.php:getFieldDefinitions:emplois.bureau | 19
+emplois.ville | Ville | text | Emploi(s) | index.php:getFieldDefinitions:emplois.ville | 19
+emplois.province | Province | text | Emploi(s) | index.php:getFieldDefinitions:emplois.province | 19
+emplois.code_postal | Code postal | text | Emploi(s) | index.php:getFieldDefinitions:emplois.code_postal | 19
+emplois.titre_poste | Titre du poste | text | Emploi(s) | index.php:getFieldDefinitions:emplois.titre_poste | 19
+emplois.position | Position | select | Emploi(s) | index.php:getFieldDefinitions:emplois.position | 19
+emplois.date_embauche | Date d’embauche | date | Emploi(s) | index.php:getFieldDefinitions:emplois.date_embauche | 19
+emplois.job_field_experience | Années d’expérience dans le domaine | text | Emploi(s) | index.php:getFieldDefinitions:emplois.job_field_experience | 19
+arret_travail | Je suis en arrêt de travail présentement | checkbox | Emploi(s) | index.php:getFieldDefinitions:arret_travail | 2
+arret_travail_cause | Cause de l’arrêt de travail | select | Emploi(s) | index.php:getFieldDefinitions:arret_travail_cause | 2
+arret_travail_duree | Durée de l’arrêt de travail | select | Emploi(s) | index.php:getFieldDefinitions:arret_travail_duree | 2
+arret_travail_type_revenu | Type de revenu pendant l’arrêt | select | Emploi(s) | index.php:getFieldDefinitions:arret_travail_type_revenu | 2
+arret_travail_date_retour | Avez-vous une date de retour au travail officielle ? | select | Emploi(s) | index.php:getFieldDefinitions:arret_travail_date_retour | 2
+assurance_emploi | Avez-vous eu recours à de l’assurance-emploi ? | select | Emploi(s) | index.php:getFieldDefinitions:assurance_emploi | 13
+assurance_emploi_pourquoi | Pourquoi avez-vous eu recours à l’assurance-emploi ? | text | Emploi(s) | index.php:getFieldDefinitions:assurance_emploi_pourquoi | 13
+revenus_checkbox | Sélectionnez vos sources de revenus | checkboxes | Revenus | index.php:getFieldDefinitions:revenus_checkbox | 19
+revenus_autonome_type | Quel type de revenu autonome détenez-vous ? | select | Revenus | index.php:getFieldDefinitions:revenus_autonome_type | 20
+revenus_autonome_structure | Type de revenus de travailleur autonome | select | Revenus | index.php:getFieldDefinitions:revenus_autonome_structure | 12
+revenus_add | Revenus additionnels déclarés | repeatable | Revenus | index.php:getFieldDefinitions:revenus_add | 0
+revenus_add.type | Type de revenu | select | Revenus | index.php:getFieldDefinitions:revenus_add.type | 0
+revenus_add.autres | Précisez si Autres | text | Revenus | index.php:getFieldDefinitions:revenus_add.autres | 0
+actifs_add | Actifs déclarés | repeatable | Actifs | index.php:getFieldDefinitions:actifs_add | 0
+actifs_add.type | Type d’actif | select | Actifs | index.php:getFieldDefinitions:actifs_add.type | 23
+actifs_add.autres | Précisez si Autres | text | Actifs | index.php:getFieldDefinitions:actifs_add.autres | 23
+actifs_add.description | Description | text | Actifs | index.php:getFieldDefinitions:actifs_add.description | 23
+actifs_add.valeur | Valeur | text | Actifs | index.php:getFieldDefinitions:actifs_add.valeur | 23
+passifs_presence | Détenez-vous des dettes ? | select | Passifs | index.php:getFieldDefinitions:passifs_presence | 20
+passifs_add | Dettes déclarées | repeatable | Passifs | index.php:getFieldDefinitions:passifs_add | 0
+passifs_add.type | Type de dette | select | Passifs | index.php:getFieldDefinitions:passifs_add.type | 23
+passifs_add.montant_pret | Montant du prêt | text | Passifs | index.php:getFieldDefinitions:passifs_add.montant_pret | 23
+passifs_add.montant_versement | Montant du versement | text | Passifs | index.php:getFieldDefinitions:passifs_add.montant_versement | 23
+passifs_add.type_versement | Type de versement | select | Passifs | index.php:getFieldDefinitions:passifs_add.type_versement | 23
+passifs_add.limite | Limite | text | Passifs | index.php:getFieldDefinitions:passifs_add.limite | 23
+passifs_add.solde | Solde | text | Passifs | index.php:getFieldDefinitions:passifs_add.solde | 23
+passifs_add.banque | Nom de la banque | text | Passifs | index.php:getFieldDefinitions:passifs_add.banque | 23
+passifs_add.banque_pret | Nom de la banque de prêt | text | Passifs | index.php:getFieldDefinitions:passifs_add.banque_pret | 23
+passifs_add.terme_restant | Terme restant (mois) | text | Passifs | index.php:getFieldDefinitions:passifs_add.terme_restant | 23
+passifs_add.paiement_minimum | Paiement minimum | text | Passifs | index.php:getFieldDefinitions:passifs_add.paiement_minimum | 23
+faillite_option | Faillite ou proposition : Option sélectionnée | select | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_option | 20
+faillite_montant | Montant de faillite ou proposition | text | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_montant | 20
+faillite_date_declaree | Date déclarée | date | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_date_declaree | 20
+faillite_date_liberation | Date de libération | date | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:faillite_date_liberation | 20
+score_credit_option | Connaissance approximative du score de crédit | select | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:score_credit_option | 20
+credit_score | Score approximatif | text | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:credit_score | 20
+paiements_manques | Paiements manqués (raisons) | textarea | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:paiements_manques | 20
+paiements_utilisation | Historique d’utilisation des paiements | textarea | Faillite ou proposition au consommateur | index.php:getFieldDefinitions:paiements_utilisation | 20
+proprietes_presence | Possession de propriétés | select | Propriétés Détenues | index.php:getFieldDefinitions:proprietes_presence | 20
+proprietes | Détails des propriétés détenues | repeatable | Propriétés Détenues | index.php:getFieldDefinitions:proprietes | 0
+proprietes.adresse_complete | Adresse complète de la propriété | text | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.adresse_complete | 3
+proprietes.refinancer | Cette propriété est-elle à refinancer ? | select | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.refinancer | 3
+proprietes.pret_hypothecaire | Prêt hypothécaire en place | select | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.pret_hypothecaire | 3
+proprietes.date_renouvellement | Date approximative de renouvellement | date | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.date_renouvellement | 3
+proprietes.type | Type de propriété | select | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.type | 3
+proprietes.taxes_municipales | Taxes municipales annuelles | text | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.taxes_municipales | 3
+proprietes.taxes_scolaires | Taxes scolaires annuelles | text | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.taxes_scolaires | 3
+proprietes.autres_personnes | Autres personnes sur le titre | text | Propriétés Détenues | index.php:getFieldDefinitions:proprietes.autres_personnes | 3
+solde_hypothecaire | Solde hypothécaire | text | Propriété à refinancer | index.php:getFieldDefinitions:solde_hypothecaire | 20
+montant_versement | Montant du versement | text | Propriété à refinancer | index.php:getFieldDefinitions:montant_versement | 20
+type_versement | Type de versement | select | Propriété à refinancer | index.php:getFieldDefinitions:type_versement | 20
+paiement_accelere | Paiement accéléré | select | Propriété à refinancer | index.php:getFieldDefinitions:paiement_accelere | 20
+valeur_estimee | Valeur estimée de la propriété | text | Propriété à refinancer | index.php:getFieldDefinitions:valeur_estimee | 20
+valeur_achat | Valeur de la propriété au moment de l'achat | text | Propriété à refinancer | index.php:getFieldDefinitions:valeur_achat | 20
+annee_construction | Année de construction de la propriété | text | Propriété à refinancer | index.php:getFieldDefinitions:annee_construction | 12
+grandeur_etage_pieds | Grandeur approximative de l’espace à l’étage en pieds carré approximativement | text | Propriété à refinancer | index.php:getFieldDefinitions:grandeur_etage_pieds | 12
+nombre_niveaux | Nombre de niveaux ou d’étages | number | Propriété à refinancer | index.php:getFieldDefinitions:nombre_niveaux | 12
+consolider_dette | Aimeriez-vous consolider une dette pour éviter les paiements multiples, ramener vos paiements en 1 seul, avoir un taux plus bas et vous libérer d'une dette? | select | Propriété à refinancer | index.php:getFieldDefinitions:consolider_dette | 11
+amortissement_desire | Amortissement désiré | text | Propriété à refinancer | index.php:getFieldDefinitions:amortissement_desire | 20
+terme_souhaite | Terme souhaité | checkboxes | Propriété à refinancer | index.php:getFieldDefinitions:terme_souhaite | 8
+montant_ajouter | Montant à rajouter | text | Propriété à refinancer | index.php:getFieldDefinitions:montant_ajouter | 20
+usage_fonds | Usage des fonds | textarea | Propriété à refinancer | index.php:getFieldDefinitions:usage_fonds | 20
+mise_de_fonds_option | Option de mise de fonds | select | Nouvel achat | index.php:getFieldDefinitions:mise_de_fonds_option | 20
+montant_mise_de_fonds | Montant de la mise de fonds | text | Nouvel achat | index.php:getFieldDefinitions:montant_mise_de_fonds | 20
+compte_depuis_3mois | Compte détenu depuis plus de 3 mois | select | Nouvel achat | index.php:getFieldDefinitions:compte_depuis_3mois | 20
+assurance_vie_conseiller | Avez-vous déjà un conseiller en sécurité financière pour vos assurances-vie (si un conjoint décède, qu’arrivera-t’il avec la propriété?...)? | select | Assurances | index.php:getFieldDefinitions:assurance_vie_conseiller | 11
+assurance_habitation_courtier | Au moment de passer chez le notaire vous devrez obligatoirement fournir une assurance habitation qui couvre le feu. Avez-vous déjà un courtier en assurance qui pourra vous sortir les prix les plus bas? | select | Assurances | index.php:getFieldDefinitions:assurance_habitation_courtier | 11
+notaire_nom | Nom complet du notaire | text | Informations du notaire | index.php:getFieldDefinitions:notaire_nom | 1
+notaire_telephone | Numéro de téléphone du notaire | text | Informations du notaire | index.php:getFieldDefinitions:notaire_telephone | 1
+notaire_email | Courriel du notaire | email | Informations du notaire | index.php:getFieldDefinitions:notaire_email | 1
+notaire_adresse | Adresse du notaire | textarea | Informations du notaire | index.php:getFieldDefinitions:notaire_adresse | 1
+
+# Champs non définis mais observés:
+# snapshot_consent | occurrences=15 | exemples=1
+# adresses[1][type] | occurrences=1 | exemples=Actuel
+# adresses[1][numero_rue] | occurrences=1 | exemples=590
+# adresses[1][nom_rue] | occurrences=1 | exemples=rue vaya
+# adresses[1][appartement] | occurrences=1 | exemples=
+# adresses[1][ville] | occurrences=1 | exemples=victoriaville
+# adresses[1][province] | occurrences=1 | exemples=qc
+# adresses[1][code_postal] | occurrences=1 | exemples=g6p1l4
+# adresses[1][date_debut] | occurrences=1 | exemples=2015-10-10
+# adresses[1][date_fin] | occurrences=1 | exemples=
+# adresses[1][statut] | occurrences=1 | exemples=Loyer
+# adresses[1][cout_loyer] | occurrences=1 | exemples=1800
+# adresses[1][lien_proprio] | occurrences=1 | exemples=
+# emplois[1][nom_employeur] | occurrences=1 | exemples=emploi test Rue De l'aqueduc
+# emplois[1][statut] | occurrences=1 | exemples=Actuel
+# emplois[1][numero_rue] | occurrences=1 | exemples=6100
+# emplois[1][nom_rue] | occurrences=1 | exemples=emploi test Rue De l'aqueduc
+# emplois[1][bureau] | occurrences=1 | exemples=
+# emplois[1][ville] | occurrences=1 | exemples=victoriaville
+# emplois[1][province] | occurrences=1 | exemples=qc
+# emplois[1][code_postal] | occurrences=1 | exemples=g6p1l4
+# emplois[1][titre_poste] | occurrences=1 | exemples=gérant
+# emplois[1][position] | occurrences=1 | exemples=Personnel de bureau
+# emplois[1][date_embauche] | occurrences=1 | exemples=2020-01-02
+# emplois[1][job_field_experience] | occurrences=1 | exemples=15
+# revenus_checkbox[] | occurrences=1 | exemples=employe
+# actifs_add[1][type] | occurrences=1 | exemples=Véhicule
+# actifs_add[1][autres] | occurrences=1 | exemples=
+# actifs_add[1][description] | occurrences=1 | exemples=toyota 2014
+# actifs_add[1][valeur] | occurrences=1 | exemples=60000
+# actifs_add[2][type] | occurrences=1 | exemples=CELI
+# actifs_add[2][autres] | occurrences=1 | exemples=
+# actifs_add[2][description] | occurrences=1 | exemples=compte celi
+# actifs_add[2][valeur] | occurrences=1 | exemples=26803.17
+# passifs_add[1][type] | occurrences=1 | exemples=Carte de crédit
+# passifs_add[1][limite] | occurrences=1 | exemples=7000
+# passifs_add[1][solde] | occurrences=1 | exemples=135.13
+# passifs_add[1][banque] | occurrences=1 | exemples=TD
+# terme_souhaite[] | occurrences=1 | exemples=

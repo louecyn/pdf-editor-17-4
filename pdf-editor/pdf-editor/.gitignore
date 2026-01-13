@@ -1,0 +1,13 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Temporary assets
+pdf-editor/output/*.pdf
+pdf-editor/upload/*
+!pdf-editor/output/.gitkeep
+!pdf-editor/upload/.gitkeep
+
+# Logs and cache
+*.log
+cache/

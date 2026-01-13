@@ -1,0 +1,659 @@
+{
+    "id": "tpl_6372302c",
+    "name": "Analyse 2025",
+    "fileName": "analyse-2025.pdf",
+    "createdAt": "2025-11-03T15:13:28-05:00",
+    "updatedAt": "2025-11-04T16:59:53-05:00",
+    "maxClients": 2,
+    "variableMappings": [
+        {
+            "key": "nom_complet",
+            "label": "Nom complet – Client 1",
+            "ranks": {
+                "1": [
+                    "de7972ee-8930-4359-a197-bb8397a1038b"
+                ]
+            }
+        },
+        {
+            "key": "nom_complet",
+            "label": "Nom complet – Client 2",
+            "ranks": {
+                "2": [
+                    "05fb6e2d-4c31-4676-8906-3572a2c433df"
+                ]
+            }
+        },
+        {
+            "key": "file_number",
+            "label": "Numéro de dossier",
+            "ranks": {
+                "1": [
+                    "418d1957-ec58-4edb-9e8f-077b5dcd5f79"
+                ]
+            }
+        },
+        {
+            "key": "chosen_lender",
+            "label": "Prêteur choisi",
+            "ranks": {
+                "1": [
+                    "ef49f3a8-485d-4345-b3e0-8142fb2a89d5"
+                ]
+            }
+        },
+        {
+            "key": "chosen_mortgage_payment",
+            "label": "Versement hypothécaire",
+            "ranks": {
+                "1": [
+                    "b286c542-a4f2-4f14-82df-e13c4c7915b7"
+                ]
+            }
+        },
+        {
+            "key": "chosen_rate_type",
+            "label": "Type de taux choisi",
+            "ranks": {
+                "1": [
+                    "50e3ebfa-c156-4f15-88b9-e5990bc52320"
+                ]
+            }
+        },
+        {
+            "key": "chosen_rate_percentage",
+            "label": "% du taux choisi",
+            "ranks": {
+                "1": [
+                    "6afecdf3-5e26-406d-9657-9245fe3541d5"
+                ]
+            }
+        },
+        {
+            "key": "reason_behind_lender_choice",
+            "label": "Avantages et inconvénients du prêteur",
+            "ranks": {
+                "1": [
+                    "661178a5-96c8-48bd-bd5c-f8f349a3a115"
+                ]
+            }
+        }
+    ],
+    "elements": [
+        {
+            "id": "de7972ee-8930-4359-a197-bb8397a1038b",
+            "type": "text",
+            "page": 0,
+            "x": 156.29261363636363,
+            "y": 136.5909090909091,
+            "width": 176.36363636363635,
+            "height": 27.27272727272727,
+            "text": "{{nom_complet_no1}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "nom_complet_no1",
+                    "baseKey": "nom_complet",
+                    "label": "Nom complet – Client 1",
+                    "groupId": "request",
+                    "rank": 1,
+                    "placeholder": "{{nom_complet_no1}}"
+                }
+            }
+        },
+        {
+            "id": "05fb6e2d-4c31-4676-8906-3572a2c433df",
+            "type": "text",
+            "page": 0,
+            "x": 166.29261363636363,
+            "y": 152.04545454545453,
+            "width": 181.8181818181818,
+            "height": 27.27272727272727,
+            "text": "{{nom_complet_no2}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "nom_complet_no2",
+                    "baseKey": "nom_complet",
+                    "label": "Nom complet – Client 2",
+                    "groupId": "request",
+                    "rank": 2,
+                    "placeholder": "{{nom_complet_no2}}"
+                }
+            }
+        },
+        {
+            "id": "418d1957-ec58-4edb-9e8f-077b5dcd5f79",
+            "type": "text",
+            "page": 0,
+            "x": 147.20170454545453,
+            "y": 169.3181818181818,
+            "width": 183.63636363636363,
+            "height": 27.627840909090907,
+            "text": "{{file_number}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "file_number",
+                    "baseKey": "file_number",
+                    "label": "Numéro de dossier",
+                    "groupId": "fused",
+                    "rank": null,
+                    "placeholder": "{{file_number}}"
+                }
+            }
+        },
+        {
+            "id": "15c9f596-e618-4c87-8df1-cbd5d027668f",
+            "type": "text",
+            "page": 0,
+            "x": 268.1109090909091,
+            "y": 291.1363636363636,
+            "width": 63.63636363636363,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "3d8301ab-0a2c-43ca-a5a6-c7dfe0b00fb6",
+            "type": "text",
+            "page": 0,
+            "x": 149.92897727272725,
+            "y": 312.9545454545455,
+            "width": 196.36363636363635,
+            "height": 40.35511363636363,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "e7b30751-7563-4ddb-ab61-9b86abbde592",
+            "type": "text",
+            "page": 0,
+            "x": 378.1109090909091,
+            "y": 442.95454545454544,
+            "width": 209.99999999999997,
+            "height": 45.45454545454545,
+            "text": "`Réponse à la question ''Montant du prêt actuel?''",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "c2ce118d-23ef-48db-accd-9f585a25207b",
+            "type": "text",
+            "page": 0,
+            "x": 384.0198863636363,
+            "y": 463.8636363636363,
+            "width": 209.99999999999997,
+            "height": 45.45454545454545,
+            "text": "`Réponse à la question ''Nom du prêteur actuel?''",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "faa04808-9b85-4895-810e-653fc6c62c72",
+            "type": "text",
+            "page": 0,
+            "x": 387.2017045454545,
+            "y": 485.68181818181824,
+            "width": 207.27272727272725,
+            "height": 51.26420454545454,
+            "text": "Réponse à la question ''Prêt demandé?''",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "e695b23e-35dc-4b04-9ae8-b9454e81d802",
+            "type": "text",
+            "page": 1,
+            "x": 58.11079545454545,
+            "y": 124.60227272727275,
+            "width": 165.45454545454544,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "88b85737-6c1d-4d36-aa40-6f2be53c4d20",
+            "type": "text",
+            "page": 1,
+            "x": 166.29261363636363,
+            "y": 124.42471590909095,
+            "width": 165.45454545454544,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "37bc8167-b24f-4435-ad3e-d14e205a986b",
+            "type": "text",
+            "page": 1,
+            "x": 58.11079545454545,
+            "y": 208.06107954545453,
+            "width": 165.45454545454544,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "563e1065-c49c-4684-a135-9bc862fa97c3",
+            "type": "text",
+            "page": 1,
+            "x": 407.2017045454545,
+            "y": 208.23863636363635,
+            "width": 161.8181818181818,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "6422d599-5ef4-4ac9-b323-a8f5d9e5d258",
+            "type": "text",
+            "page": 1,
+            "x": 58.11079545454545,
+            "y": 223.6931818181818,
+            "width": 167.27272727272725,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "701bab06-d2ca-45e6-b8c4-9cce37faa541",
+            "type": "text",
+            "page": 1,
+            "x": 451.74715909090907,
+            "y": 328.0610795454545,
+            "width": 167.27272727272725,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "0227f936-3c15-4341-9b06-155b52cda358",
+            "type": "text",
+            "page": 1,
+            "x": 373.5653409090909,
+            "y": 343.515625,
+            "width": 167.27272727272725,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "7a90f997-f2d3-4c35-a0c1-e1075c545141",
+            "type": "text",
+            "page": 1,
+            "x": 58.11079545454545,
+            "y": 360.78835227272725,
+            "width": 167.27272727272725,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "5568409c-f1b0-40d4-8e53-996095818f4f",
+            "type": "text",
+            "page": 1,
+            "x": 319.92897727272725,
+            "y": 359.8792613636363,
+            "width": 167.27272727272725,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "ae4b13a8-4220-4db5-b708-4f4246c977df",
+            "type": "text",
+            "page": 1,
+            "x": 386.2926136363636,
+            "y": 360.78835227272725,
+            "width": 167.27272727272725,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "816f8d30-53d3-40db-ab12-048d0efd2d84",
+            "type": "text",
+            "page": 1,
+            "x": 59.01988636363636,
+            "y": 396.2428977272727,
+            "width": 167.27272727272725,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "9eea574c-9e13-4ee6-900d-903fe0feecce",
+            "type": "text",
+            "page": 1,
+            "x": 350.83806818181813,
+            "y": 442.60653409090907,
+            "width": 167.27272727272725,
+            "height": 27.27272727272727,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "ef49f3a8-485d-4345-b3e0-8142fb2a89d5",
+            "type": "text",
+            "page": 1,
+            "x": 99.01988636363636,
+            "y": 629.1477272727273,
+            "width": 183.63636363636363,
+            "height": 27.627840909090907,
+            "text": "{{chosen_lender}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "chosen_lender",
+                    "baseKey": "chosen_lender",
+                    "label": "Prêteur choisi",
+                    "groupId": "fused",
+                    "rank": null,
+                    "placeholder": "{{chosen_lender}}"
+                }
+            }
+        },
+        {
+            "id": "72187036-34a1-463c-a069-8d5a2aaa5ff8",
+            "type": "text",
+            "page": 1,
+            "x": 59.01988636363636,
+            "y": 607.3295454545454,
+            "width": 198.18181818181816,
+            "height": 42.17329545454545,
+            "text": "x",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "b286c542-a4f2-4f14-82df-e13c4c7915b7",
+            "type": "text",
+            "page": 1,
+            "x": 407.2017045454545,
+            "y": 660.965909090909,
+            "width": 201.8181818181818,
+            "height": 45.809659090909086,
+            "text": "{{chosen_mortgage_payment}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "chosen_mortgage_payment",
+                    "baseKey": "chosen_mortgage_payment",
+                    "label": "Versement hypothécaire",
+                    "groupId": "fused",
+                    "rank": null,
+                    "placeholder": "{{chosen_mortgage_payment}}"
+                }
+            }
+        },
+        {
+            "id": "50e3ebfa-c156-4f15-88b9-e5990bc52320",
+            "type": "text",
+            "page": 1,
+            "x": 115.38352272727272,
+            "y": 645.5113636363636,
+            "width": 199.99999999999997,
+            "height": 43.991477272727266,
+            "text": "{{chosen_rate_type}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "chosen_rate_type",
+                    "baseKey": "chosen_rate_type",
+                    "label": "Type de taux choisi",
+                    "groupId": "fused",
+                    "rank": null,
+                    "placeholder": "{{chosen_rate_type}}"
+                }
+            }
+        },
+        {
+            "id": "6afecdf3-5e26-406d-9657-9245fe3541d5",
+            "type": "text",
+            "page": 1,
+            "x": 467.2017045454545,
+            "y": 646.4204545454546,
+            "width": 203.63636363636363,
+            "height": 47.62784090909091,
+            "text": "{{chosen_rate_percentage}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "chosen_rate_percentage",
+                    "baseKey": "chosen_rate_percentage",
+                    "label": "% du taux choisi",
+                    "groupId": "fused",
+                    "rank": null,
+                    "placeholder": "{{chosen_rate_percentage}}"
+                }
+            }
+        },
+        {
+            "id": "661178a5-96c8-48bd-bd5c-f8f349a3a115",
+            "type": "text",
+            "page": 1,
+            "x": 58.11079545454545,
+            "y": 708.2386363636363,
+            "width": 199.99999999999997,
+            "height": 43.991477272727266,
+            "text": "{{reason_behind_lender_choice}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "reason_behind_lender_choice",
+                    "baseKey": "reason_behind_lender_choice",
+                    "label": "Avantages et inconvénients du prêteur",
+                    "groupId": "fused",
+                    "rank": null,
+                    "placeholder": "{{reason_behind_lender_choice}}"
+                }
+            }
+        },
+        {
+            "id": "0bd80222-5ab5-4f05-859a-ee01003ef885",
+            "type": "text",
+            "page": 1,
+            "x": 167.20170454545453,
+            "y": 468.2386363636363,
+            "width": 207.27272727272725,
+            "height": 51.26420454545454,
+            "text": "0",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        },
+        {
+            "id": "32ef5495-584c-467f-a5e5-ebf6d11ed13b",
+            "type": "text",
+            "page": 1,
+            "x": 250.83806818181816,
+            "y": 467.32954545454544,
+            "width": 210.90909090909088,
+            "height": 54.90056818181818,
+            "text": "Gratuit en résidentiel",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#0051ff",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false
+        }
+    ],
+    "questionSettings": {
+        "classes": [
+            {
+                "id": "qa_6f7ab2e81d",
+                "required": true,
+                "defaultBlobs": [],
+                "notes": "",
+                "metadata": []
+            },
+            {
+                "id": "qa_2b3f9c7410",
+                "required": true,
+                "defaultBlobs": [],
+                "notes": "",
+                "metadata": []
+            }
+        ],
+        "selectedBlobs": []
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "generatedAt": "2025-11-11T16:13:47-05:00",
+    "template": {
+        "id": "tpl_6372302c",
+        "name": "Analyse 2025"
+    },
+    "document": {
+        "fileName": "analyse-2025_Mila_Testaaaa_20251111_161347.pdf",
+        "relativePath": "data\/requests\/Mila_Testaaaa\/Documents générés\/analyse-2025_Mila_Testaaaa_20251111_161347.pdf"
+    },
+    "updates": [
+        {
+            "requestId": "Mila_Testaaaa",
+            "displayName": "Mila Testaaaa",
+            "changes": [
+                {
+                    "key": "chosen_lender",
+                    "previous": "CMLS",
+                    "value": "Financement Horizon"
+                },
+                {
+                    "key": "chosen_mortgage_payment",
+                    "previous": "222.65",
+                    "value": "1 890,15 $ \/ mois"
+                },
+                {
+                    "key": "chosen_rate_type",
+                    "previous": "fixe",
+                    "value": "Taux fixe 5 ans"
+                },
+                {
+                    "key": "chosen_rate_percentage",
+                    "previous": "3.74",
+                    "value": "5,34 %"
+                },
+                {
+                    "key": "reason_behind_lender_choice",
+                    "previous": "avantage 1 avantage 2 et avantage 3. désavantage 1 dészavantage 2 et désavantage 3.",
+                    "value": "Taux compétitif et options de remboursement flexibles."
+                }
+            ]
+        }
+    ]
+}

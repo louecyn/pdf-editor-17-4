@@ -1,0 +1,32 @@
+# Autorise l'indexation des répertoires pour rendre le dossier public
+Options +Indexes
+
+# Autorise la réécriture (si tu veux utiliser des règles plus tard)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+</IfModule>
+
+# Permet explicitement l'accès à tous les fichiers de ce répertoire
+<IfModule mod_authz_core.c>
+    Require all granted
+</IfModule>
+<IfModule !mod_authz_core.c>
+    Allow from all
+</IfModule>
+
+# Sécurise la livraison des fichiers statiques et ajoute un cache raisonnable
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+
+    <FilesMatch "\.(?i:pdf)$">
+        Header set Cache-Control "public, max-age=300, must-revalidate"
+    </FilesMatch>
+
+    <FilesMatch "\.(?i:js|css)$">
+        Header set Cache-Control "public, max-age=86400, must-revalidate"
+    </FilesMatch>
+
+    <FilesMatch "\.(?i:php)$">
+        Header set Cache-Control "no-store, no-cache, must-revalidate"
+    </FilesMatch>
+</IfModule>

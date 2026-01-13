@@ -1,0 +1,75 @@
+{
+    "generatedAt": "2025-11-06T21:04:07-05:00",
+    "template": {
+        "id": "tpl_6372302c",
+        "name": "Analyse 2025"
+    },
+    "document": {
+        "fileName": "analyse-2025_Mila_Testaaaa_20251106_210407.pdf",
+        "relativePath": "data\/requests\/Mila_Testaaaa\/Documents générés\/analyse-2025_Mila_Testaaaa_20251106_210407.pdf"
+    },
+    "updates": [
+        {
+            "requestId": "Mila_Testaaaa",
+            "displayName": "Mila Testaaaa",
+            "changes": [
+                {
+                    "key": "chosen_lender",
+                    "previous": "",
+                    "value": "CMLS"
+                },
+                {
+                    "key": "chosen_mortgage_payment",
+                    "previous": "",
+                    "value": "222.65"
+                },
+                {
+                    "key": "chosen_rate_type",
+                    "previous": "",
+                    "value": "Variable"
+                },
+                {
+                    "key": "chosen_rate_percentage",
+                    "previous": "",
+                    "value": "3.74"
+                },
+                {
+                    "key": "reason_behind_lender_choice",
+                    "previous": "",
+                    "value": "Faible pénalité, taux compétitif, permet aux clients de pouvoir obtenir une marge de crédit plus grande avec ce prêteur plutôt qu'avec n'importe quelle autre institutions financières en acceptant le remboursement du prêt automobile de Mr."
+                }
+            ]
+        },
+        {
+            "requestId": "Minila_Testaaaao",
+            "displayName": "Minila Testaaaao",
+            "changes": [
+                {
+                    "key": "chosen_lender",
+                    "previous": "",
+                    "value": "CMLS"
+                },
+                {
+                    "key": "chosen_mortgage_payment",
+                    "previous": "",
+                    "value": "222.65"
+                },
+                {
+                    "key": "chosen_rate_type",
+                    "previous": "",
+                    "value": "Variable"
+                },
+                {
+                    "key": "chosen_rate_percentage",
+                    "previous": "",
+                    "value": "3.74"
+                },
+                {
+                    "key": "reason_behind_lender_choice",
+                    "previous": "",
+                    "value": "Faible pénalité, taux compétitif, permet aux clients de pouvoir obtenir une marge de crédit plus grande avec ce prêteur plutôt qu'avec n'importe quelle autre institutions financières en acceptant le remboursement du prêt automobile de Mr."
+                }
+            ]
+        }
+    ]
+}

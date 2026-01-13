@@ -1,0 +1,129 @@
+# Cartographie des questions générée le 2025-11-14T15:16:58-05:00
+# Question | Champ | Section | Type | Origine
+Type de demande | type_demande | Type de demande | select | index.php:getFieldDefinitions:type_demande
+Où en êtes-vous dans votre processus de financement ? | bilan_process | Bilan | select | index.php:getFieldDefinitions:bilan_process
+Quel est le plus important pour vous dans votre financement hypothécaire ? | bilan_importance | Bilan | select | index.php:getFieldDefinitions:bilan_importance
+Si nous trouvons une offre avantageuse pour vous, seriez-vous prêt à aller de l'avant ? | bilan_offre | Bilan | select | index.php:getFieldDefinitions:bilan_offre
+Avez-vous déjà obtenu une offre ou préqualification d’une autre institution financière ? | bilan_offre_preexistante | Bilan | select | index.php:getFieldDefinitions:bilan_offre_preexistante
+Avez-vous déjà rassemblé certains documents financiers ? | bilan_documents_rassembles | Bilan | select | index.php:getFieldDefinitions:bilan_documents_rassembles
+Avez-vous une date limite pour finaliser votre financement ? | bilan_date_limite | Bilan | select | index.php:getFieldDefinitions:bilan_date_limite
+Indiquez la date limite | date_limite_precise | Bilan | date | index.php:getFieldDefinitions:date_limite_precise
+Titre de politesse | titre_politesse | Informations personnelles | select | index.php:getFieldDefinitions:titre_politesse
+Prénom | prenom | Informations personnelles | text | index.php:getFieldDefinitions:prenom
+Nom | nom | Informations personnelles | text | index.php:getFieldDefinitions:nom
+Date de naissance (AAAA/MM/JJ) | dob | Informations personnelles | date | index.php:getFieldDefinitions:dob
+État civil | etat_civil | Informations personnelles | select | index.php:getFieldDefinitions:etat_civil
+Type de régime matrimonial (pour Marié) | regime_matrimonial | Informations personnelles | select | index.php:getFieldDefinitions:regime_matrimonial
+Pour Veuf/Veuve, précisez votre situation | veuf_option | Informations personnelles | select | index.php:getFieldDefinitions:veuf_option
+Numéro de téléphone | telephone | Informations personnelles | text | index.php:getFieldDefinitions:telephone
+Courriel | email | Informations personnelles | email | index.php:getFieldDefinitions:email
+Résident du Canada | resident | Informations personnelles | select | index.php:getFieldDefinitions:resident
+Êtes-vous un nouvel arrivant au Canada ? | nouvel_arrivant | Informations personnelles | select | index.php:getFieldDefinitions:nouvel_arrivant
+Êtes-vous un nouvel acheteur (première propriété) ? | nouvel_acheteur | Informations personnelles | select | index.php:getFieldDefinitions:nouvel_acheteur
+Pièce d’identité 1 - Type | piece1_type | 2 Pièces d’identités | select | index.php:getFieldDefinitions:piece1_type
+Précisez le type (Pièce 1) | piece1_autre_type | 2 Pièces d’identités | text | index.php:getFieldDefinitions:piece1_autre_type
+Pièce d’identité 1 - Pays de délivrance | piece1_pays | 2 Pièces d’identités | text | index.php:getFieldDefinitions:piece1_pays
+Pièce d’identité 1 - Numéro | piece1_numero | 2 Pièces d’identités | text | index.php:getFieldDefinitions:piece1_numero
+Pièce d’identité 1 - Date d’expiration (AAAA/MM/JJ) | piece1_expiration | 2 Pièces d’identités | date | index.php:getFieldDefinitions:piece1_expiration
+Pièce d’identité 2 - Type | piece2_type | 2 Pièces d’identités | select | index.php:getFieldDefinitions:piece2_type
+Précisez le type (Pièce 2) | piece2_autre_type | 2 Pièces d’identités | text | index.php:getFieldDefinitions:piece2_autre_type
+Pièce d’identité 2 - Pays de délivrance | piece2_pays | 2 Pièces d’identités | text | index.php:getFieldDefinitions:piece2_pays
+Pièce d’identité 2 - Numéro | piece2_numero | 2 Pièces d’identités | text | index.php:getFieldDefinitions:piece2_numero
+Pièce d’identité 2 - Date d’expiration (AAAA/MM/JJ) | piece2_expiration | 2 Pièces d’identités | date | index.php:getFieldDefinitions:piece2_expiration
+Historique d’adresses | adresses | Historique d’adresses | repeatable | index.php:getFieldDefinitions:adresses
+Type d’adresse | adresses.type | Historique d’adresses | select | index.php:getFieldDefinitions:adresses.type
+Numéro civique | adresses.numero_rue | Historique d’adresses | text | index.php:getFieldDefinitions:adresses.numero_rue
+Nom de rue | adresses.nom_rue | Historique d’adresses | text | index.php:getFieldDefinitions:adresses.nom_rue
+Appartement | adresses.appartement | Historique d’adresses | text | index.php:getFieldDefinitions:adresses.appartement
+Ville | adresses.ville | Historique d’adresses | text | index.php:getFieldDefinitions:adresses.ville
+Province | adresses.province | Historique d’adresses | text | index.php:getFieldDefinitions:adresses.province
+Code postal | adresses.code_postal | Historique d’adresses | text | index.php:getFieldDefinitions:adresses.code_postal
+Date de début | adresses.date_debut | Historique d’adresses | date | index.php:getFieldDefinitions:adresses.date_debut
+Date de fin | adresses.date_fin | Historique d’adresses | date | index.php:getFieldDefinitions:adresses.date_fin
+Statut | adresses.statut | Historique d’adresses | select | index.php:getFieldDefinitions:adresses.statut
+Coût du loyer | adresses.cout_loyer | Historique d’adresses | text | index.php:getFieldDefinitions:adresses.cout_loyer
+Lien avec le propriétaire | adresses.lien_proprio | Historique d’adresses | text | index.php:getFieldDefinitions:adresses.lien_proprio
+Historique d’emplois (3 dernières années) | emplois | Emploi(s) | repeatable | index.php:getFieldDefinitions:emplois
+Nom de l’employeur | emplois.nom_employeur | Emploi(s) | text | index.php:getFieldDefinitions:emplois.nom_employeur
+Statut | emplois.statut | Emploi(s) | select | index.php:getFieldDefinitions:emplois.statut
+Numéro de rue | emplois.numero_rue | Emploi(s) | text | index.php:getFieldDefinitions:emplois.numero_rue
+Nom de la rue | emplois.nom_rue | Emploi(s) | text | index.php:getFieldDefinitions:emplois.nom_rue
+Bureau (si applicable) | emplois.bureau | Emploi(s) | text | index.php:getFieldDefinitions:emplois.bureau
+Ville | emplois.ville | Emploi(s) | text | index.php:getFieldDefinitions:emplois.ville
+Province | emplois.province | Emploi(s) | text | index.php:getFieldDefinitions:emplois.province
+Code postal | emplois.code_postal | Emploi(s) | text | index.php:getFieldDefinitions:emplois.code_postal
+Titre du poste | emplois.titre_poste | Emploi(s) | text | index.php:getFieldDefinitions:emplois.titre_poste
+Position | emplois.position | Emploi(s) | select | index.php:getFieldDefinitions:emplois.position
+Date d’embauche | emplois.date_embauche | Emploi(s) | date | index.php:getFieldDefinitions:emplois.date_embauche
+Années d’expérience dans le domaine | emplois.job_field_experience | Emploi(s) | text | index.php:getFieldDefinitions:emplois.job_field_experience
+Je suis en arrêt de travail présentement | arret_travail | Emploi(s) | checkbox | index.php:getFieldDefinitions:arret_travail
+Cause de l’arrêt de travail | arret_travail_cause | Emploi(s) | select | index.php:getFieldDefinitions:arret_travail_cause
+Durée de l’arrêt de travail | arret_travail_duree | Emploi(s) | select | index.php:getFieldDefinitions:arret_travail_duree
+Type de revenu pendant l’arrêt | arret_travail_type_revenu | Emploi(s) | select | index.php:getFieldDefinitions:arret_travail_type_revenu
+Avez-vous une date de retour au travail officielle ? | arret_travail_date_retour | Emploi(s) | select | index.php:getFieldDefinitions:arret_travail_date_retour
+Avez-vous eu recours à de l’assurance-emploi ? | assurance_emploi | Emploi(s) | select | index.php:getFieldDefinitions:assurance_emploi
+Pourquoi avez-vous eu recours à l’assurance-emploi ? | assurance_emploi_pourquoi | Emploi(s) | text | index.php:getFieldDefinitions:assurance_emploi_pourquoi
+Sélectionnez vos sources de revenus | revenus_checkbox | Revenus | checkboxes | index.php:getFieldDefinitions:revenus_checkbox
+Quel type de revenu autonome détenez-vous ? | revenus_autonome_type | Revenus | select | index.php:getFieldDefinitions:revenus_autonome_type
+Type de revenus de travailleur autonome | revenus_autonome_structure | Revenus | select | index.php:getFieldDefinitions:revenus_autonome_structure
+Revenus additionnels déclarés | revenus_add | Revenus | repeatable | index.php:getFieldDefinitions:revenus_add
+Type de revenu | revenus_add.type | Revenus | select | index.php:getFieldDefinitions:revenus_add.type
+Précisez si Autres | revenus_add.autres | Revenus | text | index.php:getFieldDefinitions:revenus_add.autres
+Actifs déclarés | actifs_add | Actifs | repeatable | index.php:getFieldDefinitions:actifs_add
+Type d’actif | actifs_add.type | Actifs | select | index.php:getFieldDefinitions:actifs_add.type
+Précisez si Autres | actifs_add.autres | Actifs | text | index.php:getFieldDefinitions:actifs_add.autres
+Description | actifs_add.description | Actifs | text | index.php:getFieldDefinitions:actifs_add.description
+Valeur | actifs_add.valeur | Actifs | text | index.php:getFieldDefinitions:actifs_add.valeur
+Détenez-vous des dettes ? | passifs_presence | Passifs | select | index.php:getFieldDefinitions:passifs_presence
+Dettes déclarées | passifs_add | Passifs | repeatable | index.php:getFieldDefinitions:passifs_add
+Type de dette | passifs_add.type | Passifs | select | index.php:getFieldDefinitions:passifs_add.type
+Montant du prêt | passifs_add.montant_pret | Passifs | text | index.php:getFieldDefinitions:passifs_add.montant_pret
+Montant du versement | passifs_add.montant_versement | Passifs | text | index.php:getFieldDefinitions:passifs_add.montant_versement
+Type de versement | passifs_add.type_versement | Passifs | select | index.php:getFieldDefinitions:passifs_add.type_versement
+Limite | passifs_add.limite | Passifs | text | index.php:getFieldDefinitions:passifs_add.limite
+Solde | passifs_add.solde | Passifs | text | index.php:getFieldDefinitions:passifs_add.solde
+Nom de la banque | passifs_add.banque | Passifs | text | index.php:getFieldDefinitions:passifs_add.banque
+Nom de la banque de prêt | passifs_add.banque_pret | Passifs | text | index.php:getFieldDefinitions:passifs_add.banque_pret
+Terme restant (mois) | passifs_add.terme_restant | Passifs | text | index.php:getFieldDefinitions:passifs_add.terme_restant
+Paiement minimum | passifs_add.paiement_minimum | Passifs | text | index.php:getFieldDefinitions:passifs_add.paiement_minimum
+Faillite ou proposition : Option sélectionnée | faillite_option | Faillite ou proposition au consommateur | select | index.php:getFieldDefinitions:faillite_option
+Montant de faillite ou proposition | faillite_montant | Faillite ou proposition au consommateur | text | index.php:getFieldDefinitions:faillite_montant
+Date déclarée | faillite_date_declaree | Faillite ou proposition au consommateur | date | index.php:getFieldDefinitions:faillite_date_declaree
+Date de libération | faillite_date_liberation | Faillite ou proposition au consommateur | date | index.php:getFieldDefinitions:faillite_date_liberation
+Connaissance approximative du score de crédit | score_credit_option | Faillite ou proposition au consommateur | select | index.php:getFieldDefinitions:score_credit_option
+Score approximatif | credit_score | Faillite ou proposition au consommateur | text | index.php:getFieldDefinitions:credit_score
+Paiements manqués (raisons) | paiements_manques | Faillite ou proposition au consommateur | textarea | index.php:getFieldDefinitions:paiements_manques
+Historique d’utilisation des paiements | paiements_utilisation | Faillite ou proposition au consommateur | textarea | index.php:getFieldDefinitions:paiements_utilisation
+Possession de propriétés | proprietes_presence | Propriétés Détenues | select | index.php:getFieldDefinitions:proprietes_presence
+Détails des propriétés détenues | proprietes | Propriétés Détenues | repeatable | index.php:getFieldDefinitions:proprietes
+Adresse complète de la propriété | proprietes.adresse_complete | Propriétés Détenues | text | index.php:getFieldDefinitions:proprietes.adresse_complete
+Cette propriété est-elle à refinancer ? | proprietes.refinancer | Propriétés Détenues | select | index.php:getFieldDefinitions:proprietes.refinancer
+Prêt hypothécaire en place | proprietes.pret_hypothecaire | Propriétés Détenues | select | index.php:getFieldDefinitions:proprietes.pret_hypothecaire
+Date approximative de renouvellement | proprietes.date_renouvellement | Propriétés Détenues | date | index.php:getFieldDefinitions:proprietes.date_renouvellement
+Type de propriété | proprietes.type | Propriétés Détenues | select | index.php:getFieldDefinitions:proprietes.type
+Taxes municipales annuelles | proprietes.taxes_municipales | Propriétés Détenues | text | index.php:getFieldDefinitions:proprietes.taxes_municipales
+Taxes scolaires annuelles | proprietes.taxes_scolaires | Propriétés Détenues | text | index.php:getFieldDefinitions:proprietes.taxes_scolaires
+Autres personnes sur le titre | proprietes.autres_personnes | Propriétés Détenues | text | index.php:getFieldDefinitions:proprietes.autres_personnes
+Solde hypothécaire | solde_hypothecaire | Propriété à refinancer | text | index.php:getFieldDefinitions:solde_hypothecaire
+Montant du versement | montant_versement | Propriété à refinancer | text | index.php:getFieldDefinitions:montant_versement
+Type de versement | type_versement | Propriété à refinancer | select | index.php:getFieldDefinitions:type_versement
+Paiement accéléré | paiement_accelere | Propriété à refinancer | select | index.php:getFieldDefinitions:paiement_accelere
+Valeur estimée de la propriété | valeur_estimee | Propriété à refinancer | text | index.php:getFieldDefinitions:valeur_estimee
+Valeur de la propriété au moment de l'achat | valeur_achat | Propriété à refinancer | text | index.php:getFieldDefinitions:valeur_achat
+Année de construction de la propriété | annee_construction | Propriété à refinancer | text | index.php:getFieldDefinitions:annee_construction
+Grandeur approximative de l’espace à l’étage en pieds carré approximativement | grandeur_etage_pieds | Propriété à refinancer | text | index.php:getFieldDefinitions:grandeur_etage_pieds
+Nombre de niveaux ou d’étages | nombre_niveaux | Propriété à refinancer | number | index.php:getFieldDefinitions:nombre_niveaux
+Aimeriez-vous consolider une dette pour éviter les paiements multiples, ramener vos paiements en 1 seul, avoir un taux plus bas et vous libérer d'une dette? | consolider_dette | Propriété à refinancer | select | index.php:getFieldDefinitions:consolider_dette
+Amortissement désiré | amortissement_desire | Propriété à refinancer | text | index.php:getFieldDefinitions:amortissement_desire
+Terme souhaité | terme_souhaite | Propriété à refinancer | checkboxes | index.php:getFieldDefinitions:terme_souhaite
+Montant à rajouter | montant_ajouter | Propriété à refinancer | text | index.php:getFieldDefinitions:montant_ajouter
+Usage des fonds | usage_fonds | Propriété à refinancer | textarea | index.php:getFieldDefinitions:usage_fonds
+Option de mise de fonds | mise_de_fonds_option | Nouvel achat | select | index.php:getFieldDefinitions:mise_de_fonds_option
+Montant de la mise de fonds | montant_mise_de_fonds | Nouvel achat | text | index.php:getFieldDefinitions:montant_mise_de_fonds
+Compte détenu depuis plus de 3 mois | compte_depuis_3mois | Nouvel achat | select | index.php:getFieldDefinitions:compte_depuis_3mois
+Avez-vous déjà un conseiller en sécurité financière pour vos assurances-vie (si un conjoint décède, qu’arrivera-t’il avec la propriété?...)? | assurance_vie_conseiller | Assurances | select | index.php:getFieldDefinitions:assurance_vie_conseiller
+Au moment de passer chez le notaire vous devrez obligatoirement fournir une assurance habitation qui couvre le feu. Avez-vous déjà un courtier en assurance qui pourra vous sortir les prix les plus bas? | assurance_habitation_courtier | Assurances | select | index.php:getFieldDefinitions:assurance_habitation_courtier
+Nom complet du notaire | notaire_nom | Informations du notaire | text | index.php:getFieldDefinitions:notaire_nom
+Numéro de téléphone du notaire | notaire_telephone | Informations du notaire | text | index.php:getFieldDefinitions:notaire_telephone
+Courriel du notaire | notaire_email | Informations du notaire | email | index.php:getFieldDefinitions:notaire_email
+Adresse du notaire | notaire_adresse | Informations du notaire | textarea | index.php:getFieldDefinitions:notaire_adresse

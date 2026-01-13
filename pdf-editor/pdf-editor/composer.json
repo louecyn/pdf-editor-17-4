@@ -1,0 +1,17 @@
+{
+    "name": "demande-en-ligne/pdf-editor",
+    "description": "PDF editor backend and frontend utilities",
+    "type": "project",
+    "require": {
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DemandeEnLigne\\PdfEditor\\": [
+                "services/",
+                "pdf-editor/php/"
+            ]
+        }
+    }
+}

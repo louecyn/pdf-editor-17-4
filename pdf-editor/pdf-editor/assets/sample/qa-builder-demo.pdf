@@ -1,0 +1,45 @@
+%PDF-1.4
+%
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 326 >>
+stream
+BT
+/F1 24 Tf
+72 740 Td (Document d'exemple hypothcaire) Tj
+0 -36 Td (Prvisualisez les encarts en bleu.) Tj
+0 -36 Td (Champ nom :) Tj
+140 0 Td (Alexandre Exemple) Tj
+-140 -32 Td (Taux :) Tj
+140 0 Td (4,15 %) Tj
+-140 -32 Td (Ville :) Tj
+140 0 Td (Qubec) Tj
+-140 -32 Td (Plan B :) Tj
+140 0 Td (Zone de texte modifiable) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000000623 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+720
+%%EOF

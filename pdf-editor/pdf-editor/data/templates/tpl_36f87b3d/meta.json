@@ -1,0 +1,232 @@
+{
+    "id": "tpl_36f87b3d",
+    "name": "Refus d'assurances nouveau modèle oct 2025",
+    "fileName": "refus-d-assurances-nouveau-mod-le-oct-2025.pdf",
+    "createdAt": "2025-10-29T18:52:37-04:00",
+    "updatedAt": "2025-10-29T18:52:37-04:00",
+    "maxClients": 2,
+    "variableMappings": [
+        {
+            "key": "nom_complet",
+            "label": "Nom complet – Client 1",
+            "ranks": {
+                "1": [
+                    "478f495e-1e83-4d62-b406-64eca5058238"
+                ]
+            }
+        },
+        {
+            "key": "nom_complet",
+            "label": "Nom complet – Client 2",
+            "ranks": {
+                "2": [
+                    "91eabd9f-97ca-416a-98c2-83a460295f46"
+                ]
+            }
+        },
+        {
+            "key": "email",
+            "label": "Courriel – Client 1",
+            "ranks": {
+                "1": [
+                    "d130fea2-586f-4fd2-af64-43536766b68a"
+                ]
+            }
+        },
+        {
+            "key": "email",
+            "label": "Courriel – Client 2",
+            "ranks": {
+                "2": [
+                    "f5cd7c72-a8b8-4479-9c13-dbc01c627dbb"
+                ]
+            }
+        },
+        {
+            "key": "telephone",
+            "label": "Numéro de téléphone – Client 1",
+            "ranks": {
+                "1": [
+                    "9957ca48-d1c1-4abb-8e40-83943de397f9"
+                ]
+            }
+        },
+        {
+            "key": "telephone",
+            "label": "Numéro de téléphone – Client 2",
+            "ranks": {
+                "2": [
+                    "a6b2de6b-966c-444c-812b-d8074ebf038f"
+                ]
+            }
+        }
+    ],
+    "elements": [
+        {
+            "id": "478f495e-1e83-4d62-b406-64eca5058238",
+            "type": "text",
+            "page": 0,
+            "x": 152.6563636363636,
+            "y": 609.3181818181818,
+            "width": 143.63636363636363,
+            "height": 27.27272727272727,
+            "text": "{{nom_complet_no1}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "nom_complet_no1",
+                    "baseKey": "nom_complet",
+                    "label": "Nom complet – Client 1",
+                    "groupId": "request",
+                    "rank": 1,
+                    "placeholder": "{{nom_complet_no1}}"
+                }
+            }
+        },
+        {
+            "id": "91eabd9f-97ca-416a-98c2-83a460295f46",
+            "type": "text",
+            "page": 0,
+            "x": 394.4745454545454,
+            "y": 609.3181818181818,
+            "width": 208.18181818181816,
+            "height": 27.27272727272727,
+            "text": "{{nom_complet_no2}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "nom_complet_no2",
+                    "baseKey": "nom_complet",
+                    "label": "Nom complet – Client 2",
+                    "groupId": "request",
+                    "rank": 2,
+                    "placeholder": "{{nom_complet_no2}}"
+                }
+            }
+        },
+        {
+            "id": "d130fea2-586f-4fd2-af64-43536766b68a",
+            "type": "text",
+            "page": 0,
+            "x": 107.20170454545453,
+            "y": 685.6818181818181,
+            "width": 209.09090909090907,
+            "height": 53.08238636363636,
+            "text": "{{email_no1}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "email_no1",
+                    "baseKey": "email",
+                    "label": "Courriel – Client 1",
+                    "groupId": "request",
+                    "rank": 1,
+                    "placeholder": "{{email_no1}}"
+                }
+            }
+        },
+        {
+            "id": "f5cd7c72-a8b8-4479-9c13-dbc01c627dbb",
+            "type": "text",
+            "page": 0,
+            "x": 339.92897727272725,
+            "y": 685.6818181818182,
+            "width": 210.90909090909088,
+            "height": 54.90056818181818,
+            "text": "{{email_no2}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "email_no2",
+                    "baseKey": "email",
+                    "label": "Courriel – Client 2",
+                    "groupId": "request",
+                    "rank": 2,
+                    "placeholder": "{{email_no2}}"
+                }
+            }
+        },
+        {
+            "id": "9957ca48-d1c1-4abb-8e40-83943de397f9",
+            "type": "text",
+            "page": 0,
+            "x": 114.47443181818181,
+            "y": 707.4999999999999,
+            "width": 212.72727272727272,
+            "height": 56.71874999999999,
+            "text": "{{telephone_no1}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "telephone_no1",
+                    "baseKey": "telephone",
+                    "label": "Numéro de téléphone – Client 1",
+                    "groupId": "request",
+                    "rank": 1,
+                    "placeholder": "{{telephone_no1}}"
+                }
+            }
+        },
+        {
+            "id": "a6b2de6b-966c-444c-812b-d8074ebf038f",
+            "type": "text",
+            "page": 0,
+            "x": 350.83806818181813,
+            "y": 709.3181818181818,
+            "width": 214.54545454545453,
+            "height": 58.53693181818181,
+            "text": "{{telephone_no2}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "telephone_no2",
+                    "baseKey": "telephone",
+                    "label": "Numéro de téléphone – Client 2",
+                    "groupId": "request",
+                    "rank": 2,
+                    "placeholder": "{{telephone_no2}}"
+                }
+            }
+        }
+    ],
+    "questionSettings": {
+        "classes": [],
+        "selectedBlobs": []
+    }
+}

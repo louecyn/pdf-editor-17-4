@@ -1,0 +1,1 @@
+export { default, createPdfEditor } from '../../pdf-editor/js/pdf-editor.js';

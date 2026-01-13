@@ -1,0 +1,196 @@
+{
+    "id": "tpl_0647afc3",
+    "name": "Consentement-MPH-prérempli version oct 2025",
+    "fileName": "consentement-mph-pr-rempli-version-oct-2025.pdf",
+    "createdAt": "2025-10-29T18:55:56-04:00",
+    "updatedAt": "2025-10-29T18:55:56-04:00",
+    "maxClients": 2,
+    "variableMappings": [
+        {
+            "key": "file_number",
+            "label": "Numéro de dossier",
+            "ranks": {
+                "1": [
+                    "195b240a-05f1-4c11-aa8d-5e2076d911a5"
+                ]
+            }
+        },
+        {
+            "key": "nom_complet",
+            "label": "Nom complet – Client 1",
+            "ranks": {
+                "1": [
+                    "7db6c232-f72a-470a-8d1d-568a848fa39a"
+                ]
+            }
+        },
+        {
+            "key": "nom_complet",
+            "label": "Nom complet – Client 2",
+            "ranks": {
+                "2": [
+                    "3ed17859-c242-415a-a955-08fb44ce6ce9"
+                ]
+            }
+        },
+        {
+            "key": "adresses",
+            "label": "Historique d’adresses – Client 1",
+            "ranks": {
+                "1": [
+                    "afa02e11-e08b-43be-a8e1-e366b6ddede3"
+                ]
+            }
+        },
+        {
+            "key": "adresses",
+            "label": "Historique d’adresses – Client 2",
+            "ranks": {
+                "2": [
+                    "26c4fa80-0d91-4859-8167-a2b699e02e90"
+                ]
+            }
+        }
+    ],
+    "elements": [
+        {
+            "id": "195b240a-05f1-4c11-aa8d-5e2076d911a5",
+            "type": "text",
+            "page": 0,
+            "x": 396.2926136363636,
+            "y": 193.86363636363635,
+            "width": 203.63636363636363,
+            "height": 47.62784090909091,
+            "text": "{{file_number}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "file_number",
+                    "baseKey": "file_number",
+                    "label": "Numéro de dossier",
+                    "groupId": "fused",
+                    "rank": null,
+                    "placeholder": "{{file_number}}"
+                }
+            }
+        },
+        {
+            "id": "7db6c232-f72a-470a-8d1d-568a848fa39a",
+            "type": "text",
+            "page": 0,
+            "x": 157.20170454545453,
+            "y": 287.5,
+            "width": 205.45454545454544,
+            "height": 49.44602272727273,
+            "text": "{{nom_complet_no1}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "nom_complet_no1",
+                    "baseKey": "nom_complet",
+                    "label": "Nom complet – Client 1",
+                    "groupId": "request",
+                    "rank": 1,
+                    "placeholder": "{{nom_complet_no1}}"
+                }
+            }
+        },
+        {
+            "id": "3ed17859-c242-415a-a955-08fb44ce6ce9",
+            "type": "text",
+            "page": 0,
+            "x": 167.20170454545453,
+            "y": 305.68181818181813,
+            "width": 207.27272727272725,
+            "height": 51.26420454545454,
+            "text": "{{nom_complet_no2}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "nom_complet_no2",
+                    "baseKey": "nom_complet",
+                    "label": "Nom complet – Client 2",
+                    "groupId": "request",
+                    "rank": 2,
+                    "placeholder": "{{nom_complet_no2}}"
+                }
+            }
+        },
+        {
+            "id": "afa02e11-e08b-43be-a8e1-e366b6ddede3",
+            "type": "text",
+            "page": 0,
+            "x": 373.5653409090909,
+            "y": 285.6818181818182,
+            "width": 212.72727272727272,
+            "height": 56.71874999999999,
+            "text": "{{adresses_no1}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "adresses_no1",
+                    "baseKey": "adresses",
+                    "label": "Historique d’adresses – Client 1",
+                    "groupId": "request",
+                    "rank": 1,
+                    "placeholder": "{{adresses_no1}}"
+                }
+            }
+        },
+        {
+            "id": "26c4fa80-0d91-4859-8167-a2b699e02e90",
+            "type": "text",
+            "page": 0,
+            "x": 378.11079545454544,
+            "y": 306.59090909090907,
+            "width": 214.54545454545453,
+            "height": 58.53693181818181,
+            "text": "{{adresses_no2}}",
+            "fontFamily": "Helvetica",
+            "fontSize": 10,
+            "color": "#111827",
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "highlight": false,
+            "data": {
+                "variable": {
+                    "key": "adresses_no2",
+                    "baseKey": "adresses",
+                    "label": "Historique d’adresses – Client 2",
+                    "groupId": "request",
+                    "rank": 2,
+                    "placeholder": "{{adresses_no2}}"
+                }
+            }
+        }
+    ],
+    "questionSettings": {
+        "classes": [],
+        "selectedBlobs": []
+    }
+}

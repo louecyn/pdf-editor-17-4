@@ -1,0 +1,560 @@
+# Réponses possibles générées le 2025-11-14T15:16:58-05:00
+
+[type_demande] Type de demande
+  -  => -- Sélectionnez --
+  - Refinancement sans changement => Refinancement/Renouvellement hypothécaire sans changements [utilisation=3]
+  - Refinancement avec ajout => Refinancement/Renouvellement avec ajout d’un montant [utilisation=5]
+  - Nouvel achat propriétaire occupant => Nouvel achat propriétaire occupant [utilisation=8]
+  - Nouvel achat duplex occupant/locatif => Nouvel achat duplex et + propriétaire occupant et locatif [utilisation=2]
+  - Nouvel achat 100% locatif => Nouvel achat 100% locatif [utilisation=1]
+  # 1 réponses hors configuration observées
+
+[bilan_process] Où en êtes-vous dans votre processus de financement ?
+  -  => -- Sélectionnez --
+  - renseignement_attente_taux => J'ai déjà commencé à me renseigner mais je n'ai pas reçu un super deal de taux et j'attends de trouver le taux le plus bas avant de m'embarquer [utilisation=2]
+  - taux_fonctionnel => Je veux juste un taux qui fonctionne pour mon projet et je suis prêt(e) à avancer si on m'offre un bon service et qu'on trouve une solution avantageuse pour moi [utilisation=2]
+  - accompagnement_personnalise => Je veux qu'on m'aide à trouver quelque chose de bien, avec un accompagnement personnalisé [utilisation=7]
+  - prequalification_existante => J’ai déjà une préqualification ou offre verbale, je souhaite la fournir [utilisation=4]
+  - offre_meilleure => Je n'ai pas encore regardé, mais si je vois une offre, je veux qu'on m'en propose mieux [utilisation=4]
+  - reference_lorianne => J'ai été référée et j'ai entendu du bien de Lorianne courtier hypothécaire [utilisation=1]
+
+[bilan_importance] Quel est le plus important pour vous dans votre financement hypothécaire ?
+  -  => -- Sélectionnez --
+  - service_accompagnement => Le service, l’accompagnement et une solution adaptée [utilisation=14]
+  - taux_bas => Le taux le plus bas, peu importe le reste [utilisation=6]
+
+[bilan_offre] Si nous trouvons une offre avantageuse pour vous, seriez-vous prêt à aller de l'avant ?
+  -  => -- Sélectionnez --
+  - oui_meilleure_option => Oui, si c’est la meilleure option pour moi [utilisation=6]
+  - voir_plusieurs_offres => Je préfère voir plusieurs offres avant de me décider [utilisation=8]
+  - battre_offre_existante => Seulement si vous pouvez battre l'offre que j'ai déjà reçue [utilisation=5]
+  - service_accompagnement_bien => Oui, avec un bon service et accompagnement [utilisation=1]
+  - peutetre_et_autres => Peut-être, mais je vais aussi voir ailleurs
+
+[bilan_offre_preexistante] Avez-vous déjà obtenu une offre ou préqualification d’une autre institution financière ?
+  -  => -- Sélectionnez --
+  - oui_battre_taux => Oui, mais je veux voir si vous pouvez battre leur taux [utilisation=6]
+  - oui_service => Oui, j'ai déjà commencé avec un autre courtier mais je souhaite un meilleur service [utilisation=10]
+  - non => Non, je veux explorer mes options avec vous [utilisation=4]
+
+[bilan_documents_rassembles] Avez-vous déjà rassemblé certains documents financiers ?
+  -  => -- Sélectionnez --
+  - oui_partiellement => Oui, j’ai possiblement déjà tout ou une partie prête [utilisation=10]
+  - pas_encore => Pas encore, mais je vais le faire dès que possible [utilisation=8]
+  - doit_regler => Je dois régler cela rapidement, j'ai un délai à respecter [utilisation=2]
+
+[bilan_date_limite] Avez-vous une date limite pour finaliser votre financement ?
+  -  => -- Sélectionnez --
+  - date_precise => Date précise (ex: dans 3-4 mois) [utilisation=2]
+  - aucun => Non, je regarde juste mes options [utilisation=6]
+  - qualifier => Je veux juste me faire qualifier [utilisation=7]
+  - plus_6mois => Pas de stress, c'est pour dans plus de 6 mois [utilisation=3]
+  - pas_presse => Je ne suis pas pressé(e), je cherche le taux le plus bas [utilisation=2]
+
+[date_limite_precise] Indiquez la date limite
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[titre_politesse] Titre de politesse
+  -  => -- Sélectionnez --
+  - Mr. => Mr. [utilisation=10]
+  - Mme. => Mme. [utilisation=10]
+
+[prenom] Prénom
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[nom] Nom
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[dob] Date de naissance (AAAA/MM/JJ)
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[etat_civil] État civil
+  -  => -- Sélectionnez --
+  - Célibataire => Célibataire [utilisation=3]
+  - Marié => Marié [utilisation=6]
+  - Divorcé => Divorcé [utilisation=9]
+  - Séparé => Séparé [utilisation=1]
+  - Conjoint de fait => Conjoint de fait [utilisation=1]
+  - Veuf/Veuve => Veuf/Veuve
+
+[regime_matrimonial] Type de régime matrimonial (pour Marié)
+  -  => -- Sélectionnez -- [utilisation=14]
+  - Société d’acquêts => Société d’acquêts [utilisation=4]
+  - Séparation de biens => Séparation de biens [utilisation=2]
+  - Communauté de biens => Communauté de biens
+
+[veuf_option] Pour Veuf/Veuve, précisez votre situation
+  -  => -- Sélectionnez -- [utilisation=16]
+  - Veuf/Veuve récent(e) => Veuf/Veuve récent(e)
+  - Remarié(e) => Remarié(e)
+  - Autre => Autre
+  # 4 réponses hors configuration observées
+
+[telephone] Numéro de téléphone
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[email] Courriel
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[resident] Résident du Canada
+  -  => -- Sélectionnez --
+  - Citoyen => Citoyen [utilisation=20]
+  - Résident => Résident
+  - Immigrant reçu => Immigrant reçu
+  - Étranger => Étranger
+  - Visa Étudiant => Visa Étudiant
+  - Visa de travail => Visa de travail
+  - Non résident => Non résident
+
+[nouvel_arrivant] Êtes-vous un nouvel arrivant au Canada ?
+  -  => -- Sélectionnez --
+  - Oui => Oui
+  - Non => Non [utilisation=20]
+
+[nouvel_acheteur] Êtes-vous un nouvel acheteur (première propriété) ?
+  -  => -- Sélectionnez --
+  - Oui => Oui [utilisation=9]
+  - Non => Non [utilisation=11]
+
+[piece1_type] Pièce d’identité 1 - Type
+  -  => -- Sélectionnez --
+  - Permis de conduire => Permis de conduire [utilisation=19]
+  - Carte d’assurance maladie => Carte d’assurance maladie [utilisation=1]
+  - Passeport => Passeport
+  - Autres => Autres
+
+[piece1_autre_type] Précisez le type (Pièce 1)
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[piece1_pays] Pièce d’identité 1 - Pays de délivrance
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[piece1_numero] Pièce d’identité 1 - Numéro
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[piece1_expiration] Pièce d’identité 1 - Date d’expiration (AAAA/MM/JJ)
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[piece2_type] Pièce d’identité 2 - Type
+  -  => -- Sélectionnez --
+  - Permis de conduire => Permis de conduire [utilisation=1]
+  - Carte d’assurance maladie => Carte d’assurance maladie [utilisation=19]
+  - Passeport => Passeport
+  - Autres => Autres
+
+[piece2_autre_type] Précisez le type (Pièce 2)
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[piece2_pays] Pièce d’identité 2 - Pays de délivrance
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[piece2_numero] Pièce d’identité 2 - Numéro
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[piece2_expiration] Pièce d’identité 2 - Date d’expiration (AAAA/MM/JJ)
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[adresses] Historique d’adresses
+  (Aucune option prédéfinie)
+
+[adresses.type] Type d’adresse
+  -  => -- Sélectionnez --
+  - Actuel => Actuel [utilisation=17]
+  - Précédent => Précédent [utilisation=2]
+
+[adresses.numero_rue] Numéro civique
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[adresses.nom_rue] Nom de rue
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[adresses.appartement] Appartement
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[adresses.ville] Ville
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[adresses.province] Province
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[adresses.code_postal] Code postal
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[adresses.date_debut] Date de début
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[adresses.date_fin] Date de fin
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[adresses.statut] Statut
+  -  => -- Sélectionnez --
+  - Propriétaire => Propriétaire [utilisation=5]
+  - Loyer => Loyer [utilisation=14]
+  - Habite avec mes parents => Habite avec mes parents
+  - Co-Habite => Co-Habite
+
+[adresses.cout_loyer] Coût du loyer
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[adresses.lien_proprio] Lien avec le propriétaire
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[emplois] Historique d’emplois (3 dernières années)
+  (Aucune option prédéfinie)
+
+[emplois.nom_employeur] Nom de l’employeur
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[emplois.statut] Statut
+  -  => -- Sélectionnez --
+  - Actuel => Actuel [utilisation=18]
+  - Précédent => Précédent [utilisation=1]
+
+[emplois.numero_rue] Numéro de rue
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[emplois.nom_rue] Nom de la rue
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[emplois.bureau] Bureau (si applicable)
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[emplois.ville] Ville
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[emplois.province] Province
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[emplois.code_postal] Code postal
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[emplois.titre_poste] Titre du poste
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[emplois.position] Position
+  -  => -- Sélectionnez --
+  - Autre => Autre [utilisation=1]
+  - Gestionnaire/Direction => Gestionnaire/Direction [utilisation=13]
+  - Main d’œuvre qualifiée => Main d’œuvre qualifiée
+  - Personnel de bureau => Personnel de bureau [utilisation=2]
+  - Professionnel => Professionnel [utilisation=2]
+  - Retraité => Retraité
+  - Travailleur Autonome => Travailleur Autonome [utilisation=1]
+
+[emplois.date_embauche] Date d’embauche
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[emplois.job_field_experience] Années d’expérience dans le domaine
+  (Aucune option prédéfinie; 19 réponses observées)
+
+[arret_travail] Je suis en arrêt de travail présentement
+  - Oui => Valeur cochée [utilisation=2]
+  - Non => Valeur décochée
+
+[arret_travail_cause] Cause de l’arrêt de travail
+  -  => -- Sélectionnez --
+  - Maladie => Maladie [utilisation=2]
+  - Maternité/paternité => Maternité/paternité
+
+[arret_travail_duree] Durée de l’arrêt de travail
+  -  => -- Sélectionnez --
+  - Courte durée => Courte durée [utilisation=2]
+  - Longue durée => Longue durée
+
+[arret_travail_type_revenu] Type de revenu pendant l’arrêt
+  -  => -- Sélectionnez --
+  - Imposable => Imposable [utilisation=1]
+  - Non-imposable => Non-imposable [utilisation=1]
+
+[arret_travail_date_retour] Avez-vous une date de retour au travail officielle ?
+  -  => -- Sélectionnez --
+  - Oui => Oui [utilisation=1]
+  - Non => Non [utilisation=1]
+  - Non je suis sur l’invalidité à vie je ne retournerai plus jamais à l’emploi => Non je suis sur l’invalidité à vie je ne retournerai plus jamais à l’emploi
+
+[assurance_emploi] Avez-vous eu recours à de l’assurance-emploi ?
+  -  => -- Sélectionnez --
+  - Non => Non [utilisation=8]
+  - Oui => Oui [utilisation=5]
+
+[assurance_emploi_pourquoi] Pourquoi avez-vous eu recours à l’assurance-emploi ?
+  (Aucune option prédéfinie; 13 réponses observées)
+
+[revenus_checkbox] Sélectionnez vos sources de revenus
+  - retraite => J’ai un revenu de retraite* [utilisation=1]
+  - employe => J’ai un revenu en tant qu’employé** [utilisation=19]
+  - autonome => J’ai un revenu de travailleur autonome et/ou entrepreneur*** [utilisation=1]
+
+[revenus_autonome_type] Quel type de revenu autonome détenez-vous ?
+  -  => -- Sélectionnez -- [utilisation=19]
+  - Dividendes => Dividendes
+  - Salaire => Je me tire un salaire [utilisation=1]
+  - Salaire et dividendes => Je me tire un salaire et je me verse des dividendes
+
+[revenus_autonome_structure] Type de revenus de travailleur autonome
+  -  => -- Sélectionnez -- [utilisation=12]
+  - Entreprise enregistrée (à mon nom seulement dans mes impôts personnelles) => Entreprise enregistrée (à mon nom seulement dans mes impôts personnelles)
+  - Entreprise incorporée => Entreprise incorporée
+
+[revenus_add] Revenus additionnels déclarés
+  (Aucune option prédéfinie)
+
+[revenus_add.type] Type de revenu
+  -  => -- Sélectionnez --
+  - Revenus de placements => Revenus de placements
+  - Allocations pour enfants => Allocations pour enfants
+  - Pension => Pension
+  - Pension Alimentaire => Pension Alimentaire
+  - Autres => Autres
+
+[revenus_add.autres] Précisez si Autres
+  (Aucune option prédéfinie)
+
+[actifs_add] Actifs déclarés
+  (Aucune option prédéfinie)
+
+[actifs_add.type] Type d’actif
+  -  => -- Sélectionnez --
+  - Épargnes => Épargnes [utilisation=6]
+  - RÉER => RÉER [utilisation=3]
+  - Don => Don
+  - Véhicule => Véhicule [utilisation=7]
+  - Bateau => Bateau
+  - Actions et obligations => Actions et obligations
+  - Biens ménagers => Biens ménagers
+  - Assurance vie => Assurance vie
+  - Économies en compte de banque Chèques => Économies en compte de banque Chèques
+  - Économies en compte de banque Épargnes => Économies en compte de banque Épargnes
+  - Placements => Placements [utilisation=1]
+  - CELI => CELI [utilisation=5]
+  - REEE => REEE [utilisation=1]
+  - FEER => FEER
+  - CRI => CRI
+  - FRV => FRV
+  - Autres => Autres
+
+[actifs_add.autres] Précisez si Autres
+  (Aucune option prédéfinie; 23 réponses observées)
+
+[actifs_add.description] Description
+  (Aucune option prédéfinie; 23 réponses observées)
+
+[actifs_add.valeur] Valeur
+  (Aucune option prédéfinie; 23 réponses observées)
+
+[passifs_presence] Détenez-vous des dettes ?
+  -  => -- Sélectionnez --
+  - Oui => Oui [utilisation=14]
+  - Non => Non [utilisation=6]
+
+[passifs_add] Dettes déclarées
+  (Aucune option prédéfinie)
+
+[passifs_add.type] Type de dette
+  -  => -- Sélectionnez --
+  - Carte de crédit => Carte de crédit [utilisation=20]
+  - Prêt personnel => Prêt personnel [utilisation=3]
+  - Versement automobile/Bateau/Véhicule motorisé => Versement automobile/Bateau/Véhicule motorisé
+  - Pension alimentaire/Allocation pour enfants => Pension alimentaire/Allocation pour enfants
+  - Prêt étudiant => Prêt étudiant
+  - Saisie de salaire => Saisie de salaire
+  - Marge de crédit personnelle => Marge de crédit personnelle
+  - Impôts => Impôts
+  - Marge de crédit hypothécaire => Marge de crédit hypothécaire
+
+[passifs_add.montant_pret] Montant du prêt
+  (Aucune option prédéfinie; 23 réponses observées)
+
+[passifs_add.montant_versement] Montant du versement
+  (Aucune option prédéfinie; 23 réponses observées)
+
+[passifs_add.type_versement] Type de versement
+  -  => -- Sélectionnez -- [utilisation=20]
+  - Mensuel => Mensuel [utilisation=3]
+  - Aux 2 semaines => Aux 2 semaines
+  - 2 fois par mois => 2 fois par mois
+  - Hebdomadaire par semaine => Hebdomadaire par semaine
+
+[passifs_add.limite] Limite
+  (Aucune option prédéfinie; 23 réponses observées)
+
+[passifs_add.solde] Solde
+  (Aucune option prédéfinie; 23 réponses observées)
+
+[passifs_add.banque] Nom de la banque
+  (Aucune option prédéfinie; 23 réponses observées)
+
+[passifs_add.banque_pret] Nom de la banque de prêt
+  (Aucune option prédéfinie; 23 réponses observées)
+
+[passifs_add.terme_restant] Terme restant (mois)
+  (Aucune option prédéfinie; 23 réponses observées)
+
+[passifs_add.paiement_minimum] Paiement minimum
+  (Aucune option prédéfinie; 23 réponses observées)
+
+[faillite_option] Faillite ou proposition : Option sélectionnée
+  -  => -- Sélectionnez --
+  - faillite_moins_10 => Oui, j’ai fait une faillite depuis moins de 10 ans*
+  - proposition_moins_10 => Oui, j’ai fait une proposition au consommateur depuis moins de 10 ans*
+  - faillite_proposition_plus_10 => Oui, j’ai déjà fait faillite ou proposition au consommateur mais ça fait plus de 10 ans* [utilisation=4]
+  - non => Non jamais [utilisation=16]
+
+[faillite_montant] Montant de faillite ou proposition
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[faillite_date_declaree] Date déclarée
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[faillite_date_liberation] Date de libération
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[score_credit_option] Connaissance approximative du score de crédit
+  -  => -- Sélectionnez --
+  - oui => Oui [utilisation=9]
+  - non => Non [utilisation=11]
+
+[credit_score] Score approximatif
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[paiements_manques] Paiements manqués (raisons)
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[paiements_utilisation] Historique d’utilisation des paiements
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[proprietes_presence] Possession de propriétés
+  -  => -- Sélectionnez --
+  - Oui => Oui [utilisation=9]
+  - Non => Non [utilisation=11]
+
+[proprietes] Détails des propriétés détenues
+  (Aucune option prédéfinie)
+
+[proprietes.adresse_complete] Adresse complète de la propriété
+  (Aucune option prédéfinie; 3 réponses observées)
+
+[proprietes.refinancer] Cette propriété est-elle à refinancer ?
+  -  => -- Sélectionnez --
+  - Oui => Oui [utilisation=2]
+  - Non => Non [utilisation=1]
+
+[proprietes.pret_hypothecaire] Prêt hypothécaire en place
+  -  => -- Sélectionnez --
+  - Oui => Oui [utilisation=3]
+  - Non => Non
+
+[proprietes.date_renouvellement] Date approximative de renouvellement
+  (Aucune option prédéfinie; 3 réponses observées)
+
+[proprietes.type] Type de propriété
+  -  => -- Sélectionnez --
+  - Propriétaire Occupant => Propriétaire Occupant [utilisation=2]
+  - Propriétaire Occupant et Locatif => Propriétaire Occupant et Locatif
+  - 100% Locatif => 100% Locatif [utilisation=1]
+
+[proprietes.taxes_municipales] Taxes municipales annuelles
+  (Aucune option prédéfinie; 3 réponses observées)
+
+[proprietes.taxes_scolaires] Taxes scolaires annuelles
+  (Aucune option prédéfinie; 3 réponses observées)
+
+[proprietes.autres_personnes] Autres personnes sur le titre
+  (Aucune option prédéfinie; 3 réponses observées)
+
+[solde_hypothecaire] Solde hypothécaire
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[montant_versement] Montant du versement
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[type_versement] Type de versement
+  -  => -- Sélectionnez -- [utilisation=12]
+  - Mensuel => Mensuel
+  - Aux 2 semaines => Aux 2 semaines
+  - 2 fois par mois => 2 fois par mois
+  - Hebdomadaire => Hebdomadaire
+  # 8 réponses hors configuration observées
+
+[paiement_accelere] Paiement accéléré
+  -  => -- Sélectionnez -- [utilisation=12]
+  - Oui => Oui
+  - Non => Non
+  # 8 réponses hors configuration observées
+
+[valeur_estimee] Valeur estimée de la propriété
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[valeur_achat] Valeur de la propriété au moment de l'achat
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[annee_construction] Année de construction de la propriété
+  (Aucune option prédéfinie; 12 réponses observées)
+
+[grandeur_etage_pieds] Grandeur approximative de l’espace à l’étage en pieds carré approximativement
+  (Aucune option prédéfinie; 12 réponses observées)
+
+[nombre_niveaux] Nombre de niveaux ou d’étages
+  (Aucune option prédéfinie; 12 réponses observées)
+
+[consolider_dette] Aimeriez-vous consolider une dette pour éviter les paiements multiples, ramener vos paiements en 1 seul, avoir un taux plus bas et vous libérer d'une dette?
+  -  => -- Sélectionnez -- [utilisation=8]
+  - oui => Oui [utilisation=3]
+  - non => Non
+
+[amortissement_desire] Amortissement désiré
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[terme_souhaite] Terme souhaité
+  - 1 an => 1 an
+  - 2 ans => 2 ans [utilisation=1]
+  - 3 ans => 3 ans [utilisation=1]
+  - 4 ans => 4 ans [utilisation=1]
+  - 5 ans => 5 ans [utilisation=7]
+  - 6 ans => 6 ans
+  - 7 ans => 7 ans [utilisation=1]
+  - 10 ans => 10 ans
+
+[montant_ajouter] Montant à rajouter
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[usage_fonds] Usage des fonds
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[mise_de_fonds_option] Option de mise de fonds
+  -  => -- Sélectionnez -- [utilisation=7]
+  - minimal => Je ne veux pas mettre plus que la mise de fonds minimale requise [utilisation=7]
+  - fixe => J'ai un montant fixe que je veux utiliser pour ma mise de fonds [utilisation=6]
+
+[montant_mise_de_fonds] Montant de la mise de fonds
+  (Aucune option prédéfinie; 20 réponses observées)
+
+[compte_depuis_3mois] Compte détenu depuis plus de 3 mois
+  -  => -- Sélectionnez -- [utilisation=7]
+  - Oui => Oui
+  - Non => Non
+  # 13 réponses hors configuration observées
+
+[assurance_vie_conseiller] Avez-vous déjà un conseiller en sécurité financière pour vos assurances-vie (si un conjoint décède, qu’arrivera-t’il avec la propriété?...)?
+  -  => -- Sélectionnez --
+  - conseiller_deja => J’ai déjà mon conseiller en sécurité financière et mes assurances-vie reliées à la propriété [utilisation=5]
+  - options_moins_cher => J’aimerais regarder les options pour voir ce qui est le moins cher pour les meilleures conditions et avoir les conseils économiques d’un professionnel gratuitement si vous pouvez m’en référer un svp [utilisation=3]
+  - pas_magasiner => Je ne veux pas magasiner d’assurance-vie, ça ne me dérange pas de ne pas avoir de protection en cas d’imprévus ou de décès [utilisation=3]
+  - assurance_nouveau_preteur => Je préfère prendre l’assurance qui me sera proposé par le nouveau prêteur ça ne me tente pas de magasiner un prix je veux l’option facile même si les conditions pourraient être un peu moins avantageuses
+
+[assurance_habitation_courtier] Au moment de passer chez le notaire vous devrez obligatoirement fournir une assurance habitation qui couvre le feu. Avez-vous déjà un courtier en assurance qui pourra vous sortir les prix les plus bas?
+  -  => -- Sélectionnez --
+  - referer_courtier => Svp référez-moi un courtier pour faire un choix économique facilement [utilisation=5]
+  - deja_contacte => J’ai déjà contacté un assureur et je ne suis pas intéressé de chercher à trouver moins cher avec un courtier en assurance [utilisation=6]
+
+[notaire_nom] Nom complet du notaire
+  (Aucune option prédéfinie; 1 réponses observées)
+
+[notaire_telephone] Numéro de téléphone du notaire
+  (Aucune option prédéfinie; 1 réponses observées)
+
+[notaire_email] Courriel du notaire
+  (Aucune option prédéfinie; 1 réponses observées)
+
+[notaire_adresse] Adresse du notaire
+  (Aucune option prédéfinie; 1 réponses observées)

@@ -1,0 +1,14 @@
+{
+    "QQ_DOSSIER": "02-0292837336464",
+    "QQ_PRETEUR": "CMLS",
+    "QQ_TAUX_TYPE": "fixe",
+    "QQ_TAUX_VAL": "3.74",
+    "QQ_VERSEMENT": "222.65",
+    "QQ_RAISON": "avantage 1 avantage 2 et avantage 3. désavantage 1 dészavantage 2 et désavantage 3.",
+    "file_number": "02-0292837336464",
+    "chosen_lender": "CMLS",
+    "chosen_mortgage_payment": "222.65",
+    "chosen_rate_type": "fixe",
+    "chosen_rate_percentage": "3.74",
+    "reason_behind_lender_choice": "avantage 1 avantage 2 et avantage 3. désavantage 1 dészavantage 2 et désavantage 3."
+}

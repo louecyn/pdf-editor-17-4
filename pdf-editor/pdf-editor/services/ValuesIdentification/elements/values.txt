@@ -1,0 +1,170 @@
+# Liste des valeurs internes générée le 2025-11-14T15:16:58-05:00
+# Format: champ [métadonnées]
+type_demande [section=Type de demande; type=select; observations=20]
+bilan_process [section=Bilan; type=select; observations=20]
+bilan_importance [section=Bilan; type=select; observations=20]
+bilan_offre [section=Bilan; type=select; observations=20]
+bilan_offre_preexistante [section=Bilan; type=select; observations=20]
+bilan_documents_rassembles [section=Bilan; type=select; observations=20]
+bilan_date_limite [section=Bilan; type=select; observations=20]
+date_limite_precise [section=Bilan; type=date; observations=20]
+titre_politesse [section=Informations personnelles; type=select; observations=20]
+prenom [section=Informations personnelles; type=text; observations=20]
+nom [section=Informations personnelles; type=text; observations=20]
+dob [section=Informations personnelles; type=date; observations=20]
+etat_civil [section=Informations personnelles; type=select; observations=20]
+regime_matrimonial [section=Informations personnelles; type=select; observations=20]
+veuf_option [section=Informations personnelles; type=select; observations=20]
+telephone [section=Informations personnelles; type=text; observations=20]
+email [section=Informations personnelles; type=email; observations=20]
+resident [section=Informations personnelles; type=select; observations=20]
+nouvel_arrivant [section=Informations personnelles; type=select; observations=20]
+nouvel_acheteur [section=Informations personnelles; type=select; observations=20]
+piece1_type [section=2 Pièces d’identités; type=select; observations=20]
+piece1_autre_type [section=2 Pièces d’identités; type=text; observations=20]
+piece1_pays [section=2 Pièces d’identités; type=text; observations=20]
+piece1_numero [section=2 Pièces d’identités; type=text; observations=20]
+piece1_expiration [section=2 Pièces d’identités; type=date; observations=20]
+piece2_type [section=2 Pièces d’identités; type=select; observations=20]
+piece2_autre_type [section=2 Pièces d’identités; type=text; observations=20]
+piece2_pays [section=2 Pièces d’identités; type=text; observations=20]
+piece2_numero [section=2 Pièces d’identités; type=text; observations=20]
+piece2_expiration [section=2 Pièces d’identités; type=date; observations=20]
+adresses [section=Historique d’adresses; type=repeatable]
+adresses.type [section=Historique d’adresses; type=select; parent=adresses; observations=19]
+adresses.numero_rue [section=Historique d’adresses; type=text; parent=adresses; observations=19]
+adresses.nom_rue [section=Historique d’adresses; type=text; parent=adresses; observations=19]
+adresses.appartement [section=Historique d’adresses; type=text; parent=adresses; observations=19]
+adresses.ville [section=Historique d’adresses; type=text; parent=adresses; observations=19]
+adresses.province [section=Historique d’adresses; type=text; parent=adresses; observations=19]
+adresses.code_postal [section=Historique d’adresses; type=text; parent=adresses; observations=19]
+adresses.date_debut [section=Historique d’adresses; type=date; parent=adresses; observations=19]
+adresses.date_fin [section=Historique d’adresses; type=date; parent=adresses; observations=19]
+adresses.statut [section=Historique d’adresses; type=select; parent=adresses; observations=19]
+adresses.cout_loyer [section=Historique d’adresses; type=text; parent=adresses; observations=19]
+adresses.lien_proprio [section=Historique d’adresses; type=text; parent=adresses; observations=19]
+emplois [section=Emploi(s); type=repeatable]
+emplois.nom_employeur [section=Emploi(s); type=text; parent=emplois; observations=19]
+emplois.statut [section=Emploi(s); type=select; parent=emplois; observations=19]
+emplois.numero_rue [section=Emploi(s); type=text; parent=emplois; observations=19]
+emplois.nom_rue [section=Emploi(s); type=text; parent=emplois; observations=19]
+emplois.bureau [section=Emploi(s); type=text; parent=emplois; observations=19]
+emplois.ville [section=Emploi(s); type=text; parent=emplois; observations=19]
+emplois.province [section=Emploi(s); type=text; parent=emplois; observations=19]
+emplois.code_postal [section=Emploi(s); type=text; parent=emplois; observations=19]
+emplois.titre_poste [section=Emploi(s); type=text; parent=emplois; observations=19]
+emplois.position [section=Emploi(s); type=select; parent=emplois; observations=19]
+emplois.date_embauche [section=Emploi(s); type=date; parent=emplois; observations=19]
+emplois.job_field_experience [section=Emploi(s); type=text; parent=emplois; observations=19]
+arret_travail [section=Emploi(s); type=checkbox; observations=2]
+arret_travail_cause [section=Emploi(s); type=select; observations=2]
+arret_travail_duree [section=Emploi(s); type=select; observations=2]
+arret_travail_type_revenu [section=Emploi(s); type=select; observations=2]
+arret_travail_date_retour [section=Emploi(s); type=select; observations=2]
+assurance_emploi [section=Emploi(s); type=select; observations=13]
+assurance_emploi_pourquoi [section=Emploi(s); type=text; observations=13]
+revenus_checkbox [section=Revenus; type=checkboxes; observations=19]
+revenus_autonome_type [section=Revenus; type=select; observations=20]
+revenus_autonome_structure [section=Revenus; type=select; observations=12]
+revenus_add [section=Revenus; type=repeatable]
+revenus_add.type [section=Revenus; type=select; parent=revenus_add]
+revenus_add.autres [section=Revenus; type=text; parent=revenus_add]
+actifs_add [section=Actifs; type=repeatable]
+actifs_add.type [section=Actifs; type=select; parent=actifs_add; observations=23]
+actifs_add.autres [section=Actifs; type=text; parent=actifs_add; observations=23]
+actifs_add.description [section=Actifs; type=text; parent=actifs_add; observations=23]
+actifs_add.valeur [section=Actifs; type=text; parent=actifs_add; observations=23]
+passifs_presence [section=Passifs; type=select; observations=20]
+passifs_add [section=Passifs; type=repeatable]
+passifs_add.type [section=Passifs; type=select; parent=passifs_add; observations=23]
+passifs_add.montant_pret [section=Passifs; type=text; parent=passifs_add; observations=23]
+passifs_add.montant_versement [section=Passifs; type=text; parent=passifs_add; observations=23]
+passifs_add.type_versement [section=Passifs; type=select; parent=passifs_add; observations=23]
+passifs_add.limite [section=Passifs; type=text; parent=passifs_add; observations=23]
+passifs_add.solde [section=Passifs; type=text; parent=passifs_add; observations=23]
+passifs_add.banque [section=Passifs; type=text; parent=passifs_add; observations=23]
+passifs_add.banque_pret [section=Passifs; type=text; parent=passifs_add; observations=23]
+passifs_add.terme_restant [section=Passifs; type=text; parent=passifs_add; observations=23]
+passifs_add.paiement_minimum [section=Passifs; type=text; parent=passifs_add; observations=23]
+faillite_option [section=Faillite ou proposition au consommateur; type=select; observations=20]
+faillite_montant [section=Faillite ou proposition au consommateur; type=text; observations=20]
+faillite_date_declaree [section=Faillite ou proposition au consommateur; type=date; observations=20]
+faillite_date_liberation [section=Faillite ou proposition au consommateur; type=date; observations=20]
+score_credit_option [section=Faillite ou proposition au consommateur; type=select; observations=20]
+credit_score [section=Faillite ou proposition au consommateur; type=text; observations=20]
+paiements_manques [section=Faillite ou proposition au consommateur; type=textarea; observations=20]
+paiements_utilisation [section=Faillite ou proposition au consommateur; type=textarea; observations=20]
+proprietes_presence [section=Propriétés Détenues; type=select; observations=20]
+proprietes [section=Propriétés Détenues; type=repeatable]
+proprietes.adresse_complete [section=Propriétés Détenues; type=text; parent=proprietes; observations=3]
+proprietes.refinancer [section=Propriétés Détenues; type=select; parent=proprietes; observations=3]
+proprietes.pret_hypothecaire [section=Propriétés Détenues; type=select; parent=proprietes; observations=3]
+proprietes.date_renouvellement [section=Propriétés Détenues; type=date; parent=proprietes; observations=3]
+proprietes.type [section=Propriétés Détenues; type=select; parent=proprietes; observations=3]
+proprietes.taxes_municipales [section=Propriétés Détenues; type=text; parent=proprietes; observations=3]
+proprietes.taxes_scolaires [section=Propriétés Détenues; type=text; parent=proprietes; observations=3]
+proprietes.autres_personnes [section=Propriétés Détenues; type=text; parent=proprietes; observations=3]
+solde_hypothecaire [section=Propriété à refinancer; type=text; observations=20]
+montant_versement [section=Propriété à refinancer; type=text; observations=20]
+type_versement [section=Propriété à refinancer; type=select; observations=20]
+paiement_accelere [section=Propriété à refinancer; type=select; observations=20]
+valeur_estimee [section=Propriété à refinancer; type=text; observations=20]
+valeur_achat [section=Propriété à refinancer; type=text; observations=20]
+annee_construction [section=Propriété à refinancer; type=text; observations=12]
+grandeur_etage_pieds [section=Propriété à refinancer; type=text; observations=12]
+nombre_niveaux [section=Propriété à refinancer; type=number; observations=12]
+consolider_dette [section=Propriété à refinancer; type=select; observations=11]
+amortissement_desire [section=Propriété à refinancer; type=text; observations=20]
+terme_souhaite [section=Propriété à refinancer; type=checkboxes; observations=8]
+montant_ajouter [section=Propriété à refinancer; type=text; observations=20]
+usage_fonds [section=Propriété à refinancer; type=textarea; observations=20]
+mise_de_fonds_option [section=Nouvel achat; type=select; observations=20]
+montant_mise_de_fonds [section=Nouvel achat; type=text; observations=20]
+compte_depuis_3mois [section=Nouvel achat; type=select; observations=20]
+assurance_vie_conseiller [section=Assurances; type=select; observations=11]
+assurance_habitation_courtier [section=Assurances; type=select; observations=11]
+notaire_nom [section=Informations du notaire; type=text; observations=1]
+notaire_telephone [section=Informations du notaire; type=text; observations=1]
+notaire_email [section=Informations du notaire; type=email; observations=1]
+notaire_adresse [section=Informations du notaire; type=textarea; observations=1]
+
+# Champs observés dans les requêtes mais non définis:
+# snapshot_consent (occurrences=15)
+# adresses[1][type] (occurrences=1)
+# adresses[1][numero_rue] (occurrences=1)
+# adresses[1][nom_rue] (occurrences=1)
+# adresses[1][appartement] (occurrences=1)
+# adresses[1][ville] (occurrences=1)
+# adresses[1][province] (occurrences=1)
+# adresses[1][code_postal] (occurrences=1)
+# adresses[1][date_debut] (occurrences=1)
+# adresses[1][date_fin] (occurrences=1)
+# adresses[1][statut] (occurrences=1)
+# adresses[1][cout_loyer] (occurrences=1)
+# adresses[1][lien_proprio] (occurrences=1)
+# emplois[1][nom_employeur] (occurrences=1)
+# emplois[1][statut] (occurrences=1)
+# emplois[1][numero_rue] (occurrences=1)
+# emplois[1][nom_rue] (occurrences=1)
+# emplois[1][bureau] (occurrences=1)
+# emplois[1][ville] (occurrences=1)
+# emplois[1][province] (occurrences=1)
+# emplois[1][code_postal] (occurrences=1)
+# emplois[1][titre_poste] (occurrences=1)
+# emplois[1][position] (occurrences=1)
+# emplois[1][date_embauche] (occurrences=1)
+# emplois[1][job_field_experience] (occurrences=1)
+# revenus_checkbox[] (occurrences=1)
+# actifs_add[1][type] (occurrences=1)
+# actifs_add[1][autres] (occurrences=1)
+# actifs_add[1][description] (occurrences=1)
+# actifs_add[1][valeur] (occurrences=1)
+# actifs_add[2][type] (occurrences=1)
+# actifs_add[2][autres] (occurrences=1)
+# actifs_add[2][description] (occurrences=1)
+# actifs_add[2][valeur] (occurrences=1)
+# passifs_add[1][type] (occurrences=1)
+# passifs_add[1][limite] (occurrences=1)
+# passifs_add[1][solde] (occurrences=1)
+# passifs_add[1][banque] (occurrences=1)
+# terme_souhaite[] (occurrences=1)
